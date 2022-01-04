@@ -1,0 +1,1263 @@
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: new group: name=ubuntu, GID=1000
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: new user: name=ubuntu, UID=1000, GID=1000, home=/home/ubuntu, shell=/bin/bash, from=none
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to group 'adm'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to group 'dialout'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to group 'cdrom'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to group 'floppy'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to group 'sudo'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to group 'audio'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to group 'dip'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to group 'video'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to group 'plugdev'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to group 'netdev'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to group 'lxd'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to shadow group 'adm'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to shadow group 'dialout'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to shadow group 'cdrom'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to shadow group 'floppy'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to shadow group 'sudo'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to shadow group 'audio'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to shadow group 'dip'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to shadow group 'video'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to shadow group 'plugdev'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to shadow group 'netdev'
+Jan 19 17:11:03 ip-172-31-18-93 useradd[394]: add 'ubuntu' to shadow group 'lxd'
+Jan 19 17:11:03 ip-172-31-18-93 passwd[403]: password for 'ubuntu' changed by 'root'
+Jan 19 17:11:03 ip-172-31-18-93 systemd-logind[451]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 19 17:11:03 ip-172-31-18-93 systemd-logind[451]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 19 17:11:03 ip-172-31-18-93 systemd-logind[451]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan 19 17:11:03 ip-172-31-18-93 systemd-logind[451]: New seat seat0.
+Jan 19 17:11:04 ip-172-31-18-93 sshd[645]: Server listening on 0.0.0.0 port 22.
+Jan 19 17:11:04 ip-172-31-18-93 sshd[645]: Server listening on :: port 22.
+Jan 19 17:11:11 ip-172-31-18-93 systemd-logind[451]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 19 17:11:11 ip-172-31-18-93 systemd-logind[451]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 19 17:11:11 ip-172-31-18-93 systemd-logind[451]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan 19 17:11:27 ip-172-31-18-93 sshd[1620]: Accepted publickey for ubuntu from 73.169.221.12 port 53731 ssh2: RSA SHA256:z7CFhTBdJ+sGb3G1rLS8A9Bm1jghQDa90ig6Ol1d5Kw
+Jan 19 17:11:27 ip-172-31-18-93 sshd[1620]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jan 19 17:11:27 ip-172-31-18-93 systemd-logind[451]: New session 1 of user ubuntu.
+Jan 19 17:11:27 ip-172-31-18-93 systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Jan 19 17:11:40 ip-172-31-18-93 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Jan 19 17:11:40 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:11:53 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:12:10 ip-172-31-18-93 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Jan 19 17:12:10 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:12:57 ip-172-31-18-93 systemd-logind[451]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 19 17:12:57 ip-172-31-18-93 systemd-logind[451]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 19 17:12:57 ip-172-31-18-93 systemd-logind[451]: Failed to open /dev/input/event2: Operation not permitted
+Jan 19 17:13:04 ip-172-31-18-93 sshd[645]: Received signal 15; terminating.
+Jan 19 17:13:04 ip-172-31-18-93 sshd[12215]: Server listening on 0.0.0.0 port 22.
+Jan 19 17:13:04 ip-172-31-18-93 sshd[12215]: Server listening on :: port 22.
+Jan 19 17:13:05 ip-172-31-18-93 systemd-logind[12300]: Failed to add user by file name 1000, ignoring: Invalid argument
+Jan 19 17:13:05 ip-172-31-18-93 systemd-logind[12300]: User enumeration failed: Invalid argument
+Jan 19 17:13:05 ip-172-31-18-93 systemd-logind[12300]: User of session 1 not known.
+Jan 19 17:13:05 ip-172-31-18-93 systemd-logind[12300]: Session enumeration failed: No such file or directory
+Jan 19 17:13:05 ip-172-31-18-93 systemd-logind[12300]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 19 17:13:05 ip-172-31-18-93 systemd-logind[12300]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 19 17:13:05 ip-172-31-18-93 systemd-logind[12300]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan 19 17:13:05 ip-172-31-18-93 systemd-logind[12300]: New seat seat0.
+Jan 19 17:13:45 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:14:38 ip-172-31-18-93 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/bash
+Jan 19 17:14:38 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:14:38 ip-172-31-18-93 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/bash -
+Jan 19 17:14:38 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:14:41 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:14:41 ip-172-31-18-93 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install -y nodejs
+Jan 19 17:14:41 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:14:47 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:14:47 ip-172-31-18-93 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
+Jan 19 17:14:47 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:14:48 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:14:48 ip-172-31-18-93 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/mongodb-org-4.0.list
+Jan 19 17:14:48 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:14:48 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:14:48 ip-172-31-18-93 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan 19 17:14:48 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:14:49 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:14:49 ip-172-31-18-93 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install -y mongodb-org
+Jan 19 17:14:49 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:15:00 ip-172-31-18-93 useradd[27597]: new user: name=mongodb, UID=113, GID=65534, home=/home/mongodb, shell=/usr/sbin/nologin, from=none
+Jan 19 17:15:00 ip-172-31-18-93 usermod[27605]: change user 'mongodb' password
+Jan 19 17:15:00 ip-172-31-18-93 chage[27613]: changed password expiry for mongodb
+Jan 19 17:15:00 ip-172-31-18-93 groupadd[27618]: group added to /etc/group: name=mongodb, GID=119
+Jan 19 17:15:00 ip-172-31-18-93 groupadd[27618]: group added to /etc/gshadow: name=mongodb
+Jan 19 17:15:00 ip-172-31-18-93 groupadd[27618]: new group: name=mongodb, GID=119
+Jan 19 17:15:00 ip-172-31-18-93 gpasswd[27625]: user mongodb added by root to group mongodb
+Jan 19 17:15:02 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:15:02 ip-172-31-18-93 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl start mongod
+Jan 19 17:15:02 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:15:02 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:15:02 ip-172-31-18-93 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl enable mongod
+Jan 19 17:15:02 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:15:03 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:15:03 ip-172-31-18-93 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/npm install -g pm2
+Jan 19 17:15:03 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:15:14 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:15:14 ip-172-31-18-93 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/pm2 startup systemd
+Jan 19 17:15:14 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:15:15 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:15:15 ip-172-31-18-93 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install -y nginx
+Jan 19 17:15:15 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:15:21 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:15:21 ip-172-31-18-93 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw allow OpenSSH
+Jan 19 17:15:21 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:15:21 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:15:21 ip-172-31-18-93 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw allow Nginx Full
+Jan 19 17:15:21 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:15:21 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:15:21 ip-172-31-18-93 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/ufw --force enable
+Jan 19 17:15:21 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:15:22 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:15:22 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:16:12 ip-172-31-18-93 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/git clone https://github.com/cornflourblue/node-mongo-registration-login-api /opt/back-end
+Jan 19 17:16:12 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:16:13 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:16:36 ip-172-31-18-93 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/back-end ; USER=root ; COMMAND=/usr/bin/npm install
+Jan 19 17:16:36 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:16:41 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:16:58 ip-172-31-18-93 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/back-end ; USER=root ; COMMAND=/usr/bin/pm2 start server.js
+Jan 19 17:16:58 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:16:59 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:17:01 ip-172-31-18-93 CRON[28676]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 19 17:17:01 ip-172-31-18-93 CRON[28676]: pam_unix(cron:session): session closed for user root
+Jan 19 17:17:24 ip-172-31-18-93 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/back-end ; USER=root ; COMMAND=/usr/bin/git clone https://github.com/cornflourblue/react-redux-registration-login-example.git /opt/front-end
+Jan 19 17:17:24 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:17:24 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:17:42 ip-172-31-18-93 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/front-end ; USER=root ; COMMAND=/usr/bin/npm install
+Jan 19 17:17:42 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:17:58 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:18:34 ip-172-31-18-93 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/front-end ; USER=root ; COMMAND=/usr/bin/nano /opt/front-end/src/index.jsx
+Jan 19 17:18:34 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:19:21 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:19:35 ip-172-31-18-93 sshd[28711]: error: kex_exchange_identification: Connection closed by remote host
+Jan 19 17:19:39 ip-172-31-18-93 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/front-end ; USER=root ; COMMAND=/usr/bin/nano /opt/front-end/webpack.config.js
+Jan 19 17:19:39 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:20:41 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:20:57 ip-172-31-18-93 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/front-end ; USER=root ; COMMAND=/usr/bin/npm run build
+Jan 19 17:20:57 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:21:08 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:21:31 ip-172-31-18-93 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/front-end ; USER=root ; COMMAND=/usr/bin/rm /etc/nginx/sites-available/default
+Jan 19 17:21:31 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:21:31 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:21:46 ip-172-31-18-93 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/front-end ; USER=root ; COMMAND=/usr/bin/nano /etc/nginx/sites-available/default
+Jan 19 17:21:46 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 19 17:22:20 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 19 17:50:31 ip-172-31-18-93 sshd[28778]: Invalid user local from 183.131.231.135 port 37238
+Jan 19 17:50:31 ip-172-31-18-93 sshd[28778]: Received disconnect from 183.131.231.135 port 37238:11: Bye Bye [preauth]
+Jan 19 17:50:31 ip-172-31-18-93 sshd[28778]: Disconnected from invalid user local 183.131.231.135 port 37238 [preauth]
+Jan 19 17:52:48 ip-172-31-18-93 sshd[28782]: Invalid user user from 20.194.4.164 port 33194
+Jan 19 17:52:48 ip-172-31-18-93 sshd[28782]: Received disconnect from 20.194.4.164 port 33194:11: Bye Bye [preauth]
+Jan 19 17:52:48 ip-172-31-18-93 sshd[28782]: Disconnected from invalid user user 20.194.4.164 port 33194 [preauth]
+Jan 19 17:53:47 ip-172-31-18-93 sshd[28785]: error: maximum authentication attempts exceeded for root from 97.126.91.4 port 51564 ssh2 [preauth]
+Jan 19 17:53:47 ip-172-31-18-93 sshd[28785]: Disconnecting authenticating user root 97.126.91.4 port 51564: Too many authentication failures [preauth]
+Jan 19 17:53:51 ip-172-31-18-93 sshd[28787]: error: maximum authentication attempts exceeded for root from 97.126.91.4 port 51700 ssh2 [preauth]
+Jan 19 17:53:51 ip-172-31-18-93 sshd[28787]: Disconnecting authenticating user root 97.126.91.4 port 51700: Too many authentication failures [preauth]
+Jan 19 17:53:55 ip-172-31-18-93 sshd[28789]: Received disconnect from 97.126.91.4 port 51820:11: disconnected by user [preauth]
+Jan 19 17:53:55 ip-172-31-18-93 sshd[28789]: Disconnected from authenticating user root 97.126.91.4 port 51820 [preauth]
+Jan 19 17:54:00 ip-172-31-18-93 sshd[28791]: Invalid user admin from 97.126.91.4 port 51922
+Jan 19 17:54:00 ip-172-31-18-93 sshd[28791]: error: maximum authentication attempts exceeded for invalid user admin from 97.126.91.4 port 51922 ssh2 [preauth]
+Jan 19 17:54:00 ip-172-31-18-93 sshd[28791]: Disconnecting invalid user admin 97.126.91.4 port 51922: Too many authentication failures [preauth]
+Jan 19 17:54:04 ip-172-31-18-93 sshd[28793]: Invalid user admin from 97.126.91.4 port 52058
+Jan 19 17:54:05 ip-172-31-18-93 sshd[28793]: error: maximum authentication attempts exceeded for invalid user admin from 97.126.91.4 port 52058 ssh2 [preauth]
+Jan 19 17:54:05 ip-172-31-18-93 sshd[28793]: Disconnecting invalid user admin 97.126.91.4 port 52058: Too many authentication failures [preauth]
+Jan 19 17:54:08 ip-172-31-18-93 sshd[28795]: Invalid user admin from 97.126.91.4 port 52172
+Jan 19 17:54:09 ip-172-31-18-93 sshd[28795]: Received disconnect from 97.126.91.4 port 52172:11: disconnected by user [preauth]
+Jan 19 17:54:09 ip-172-31-18-93 sshd[28795]: Disconnected from invalid user admin 97.126.91.4 port 52172 [preauth]
+Jan 19 17:54:12 ip-172-31-18-93 sshd[28797]: Invalid user oracle from 97.126.91.4 port 52266
+Jan 19 17:54:12 ip-172-31-18-93 sshd[28797]: error: maximum authentication attempts exceeded for invalid user oracle from 97.126.91.4 port 52266 ssh2 [preauth]
+Jan 19 17:54:12 ip-172-31-18-93 sshd[28797]: Disconnecting invalid user oracle 97.126.91.4 port 52266: Too many authentication failures [preauth]
+Jan 19 17:54:16 ip-172-31-18-93 sshd[28799]: Invalid user oracle from 97.126.91.4 port 52378
+Jan 19 17:54:17 ip-172-31-18-93 sshd[28799]: error: maximum authentication attempts exceeded for invalid user oracle from 97.126.91.4 port 52378 ssh2 [preauth]
+Jan 19 17:54:17 ip-172-31-18-93 sshd[28799]: Disconnecting invalid user oracle 97.126.91.4 port 52378: Too many authentication failures [preauth]
+Jan 19 17:54:21 ip-172-31-18-93 sshd[28801]: Invalid user oracle from 97.126.91.4 port 52498
+Jan 19 17:54:22 ip-172-31-18-93 sshd[28801]: Received disconnect from 97.126.91.4 port 52498:11: disconnected by user [preauth]
+Jan 19 17:54:22 ip-172-31-18-93 sshd[28801]: Disconnected from invalid user oracle 97.126.91.4 port 52498 [preauth]
+Jan 19 17:54:27 ip-172-31-18-93 sshd[28803]: Invalid user usuario from 97.126.91.4 port 52636
+Jan 19 17:54:27 ip-172-31-18-93 sshd[28803]: error: maximum authentication attempts exceeded for invalid user usuario from 97.126.91.4 port 52636 ssh2 [preauth]
+Jan 19 17:54:27 ip-172-31-18-93 sshd[28803]: Disconnecting invalid user usuario 97.126.91.4 port 52636: Too many authentication failures [preauth]
+Jan 19 17:54:33 ip-172-31-18-93 sshd[28805]: Invalid user usuario from 97.126.91.4 port 52784
+Jan 19 17:54:34 ip-172-31-18-93 sshd[28805]: error: maximum authentication attempts exceeded for invalid user usuario from 97.126.91.4 port 52784 ssh2 [preauth]
+Jan 19 17:54:34 ip-172-31-18-93 sshd[28805]: Disconnecting invalid user usuario 97.126.91.4 port 52784: Too many authentication failures [preauth]
+Jan 19 17:54:39 ip-172-31-18-93 sshd[28807]: Invalid user usuario from 97.126.91.4 port 52982
+Jan 19 17:54:39 ip-172-31-18-93 sshd[28807]: Received disconnect from 97.126.91.4 port 52982:11: disconnected by user [preauth]
+Jan 19 17:54:39 ip-172-31-18-93 sshd[28807]: Disconnected from invalid user usuario 97.126.91.4 port 52982 [preauth]
+Jan 19 17:54:45 ip-172-31-18-93 sshd[28809]: Invalid user test from 97.126.91.4 port 53110
+Jan 19 17:54:46 ip-172-31-18-93 sshd[28809]: error: maximum authentication attempts exceeded for invalid user test from 97.126.91.4 port 53110 ssh2 [preauth]
+Jan 19 17:54:46 ip-172-31-18-93 sshd[28809]: Disconnecting invalid user test 97.126.91.4 port 53110: Too many authentication failures [preauth]
+Jan 19 17:54:51 ip-172-31-18-93 sshd[28811]: Invalid user test from 97.126.91.4 port 53294
+Jan 19 17:54:51 ip-172-31-18-93 sshd[28811]: error: maximum authentication attempts exceeded for invalid user test from 97.126.91.4 port 53294 ssh2 [preauth]
+Jan 19 17:54:51 ip-172-31-18-93 sshd[28811]: Disconnecting invalid user test 97.126.91.4 port 53294: Too many authentication failures [preauth]
+Jan 19 17:54:56 ip-172-31-18-93 sshd[28813]: Invalid user test from 97.126.91.4 port 53450
+Jan 19 17:54:56 ip-172-31-18-93 sshd[28813]: Received disconnect from 97.126.91.4 port 53450:11: disconnected by user [preauth]
+Jan 19 17:54:56 ip-172-31-18-93 sshd[28813]: Disconnected from invalid user test 97.126.91.4 port 53450 [preauth]
+Jan 19 17:55:02 ip-172-31-18-93 sshd[28815]: Invalid user user from 97.126.91.4 port 53584
+Jan 19 17:55:03 ip-172-31-18-93 sshd[28815]: error: maximum authentication attempts exceeded for invalid user user from 97.126.91.4 port 53584 ssh2 [preauth]
+Jan 19 17:55:03 ip-172-31-18-93 sshd[28815]: Disconnecting invalid user user 97.126.91.4 port 53584: Too many authentication failures [preauth]
+Jan 19 17:55:08 ip-172-31-18-93 sshd[28817]: Invalid user user from 97.126.91.4 port 53792
+Jan 19 17:55:09 ip-172-31-18-93 sshd[28817]: error: maximum authentication attempts exceeded for invalid user user from 97.126.91.4 port 53792 ssh2 [preauth]
+Jan 19 17:55:09 ip-172-31-18-93 sshd[28817]: Disconnecting invalid user user 97.126.91.4 port 53792: Too many authentication failures [preauth]
+Jan 19 17:55:14 ip-172-31-18-93 sshd[28819]: Invalid user user from 97.126.91.4 port 53954
+Jan 19 17:55:14 ip-172-31-18-93 sshd[28819]: Received disconnect from 97.126.91.4 port 53954:11: disconnected by user [preauth]
+Jan 19 17:55:14 ip-172-31-18-93 sshd[28819]: Disconnected from invalid user user 97.126.91.4 port 53954 [preauth]
+Jan 19 17:55:18 ip-172-31-18-93 sshd[28821]: Invalid user ftpuser from 97.126.91.4 port 54072
+Jan 19 17:55:19 ip-172-31-18-93 sshd[28821]: error: maximum authentication attempts exceeded for invalid user ftpuser from 97.126.91.4 port 54072 ssh2 [preauth]
+Jan 19 17:55:19 ip-172-31-18-93 sshd[28821]: Disconnecting invalid user ftpuser 97.126.91.4 port 54072: Too many authentication failures [preauth]
+Jan 19 17:55:23 ip-172-31-18-93 sshd[28823]: Invalid user ftpuser from 97.126.91.4 port 54212
+Jan 19 17:55:23 ip-172-31-18-93 sshd[28823]: error: maximum authentication attempts exceeded for invalid user ftpuser from 97.126.91.4 port 54212 ssh2 [preauth]
+Jan 19 17:55:23 ip-172-31-18-93 sshd[28823]: Disconnecting invalid user ftpuser 97.126.91.4 port 54212: Too many authentication failures [preauth]
+Jan 19 17:55:27 ip-172-31-18-93 sshd[28825]: Invalid user ftpuser from 97.126.91.4 port 54352
+Jan 19 17:55:28 ip-172-31-18-93 sshd[28825]: Received disconnect from 97.126.91.4 port 54352:11: disconnected by user [preauth]
+Jan 19 17:55:28 ip-172-31-18-93 sshd[28825]: Disconnected from invalid user ftpuser 97.126.91.4 port 54352 [preauth]
+Jan 19 17:55:32 ip-172-31-18-93 sshd[28827]: Invalid user test1 from 97.126.91.4 port 54476
+Jan 19 17:55:33 ip-172-31-18-93 sshd[28827]: error: maximum authentication attempts exceeded for invalid user test1 from 97.126.91.4 port 54476 ssh2 [preauth]
+Jan 19 17:55:33 ip-172-31-18-93 sshd[28827]: Disconnecting invalid user test1 97.126.91.4 port 54476: Too many authentication failures [preauth]
+Jan 19 17:55:36 ip-172-31-18-93 sshd[28829]: Invalid user test1 from 97.126.91.4 port 54584
+Jan 19 17:55:37 ip-172-31-18-93 sshd[28829]: error: maximum authentication attempts exceeded for invalid user test1 from 97.126.91.4 port 54584 ssh2 [preauth]
+Jan 19 17:55:37 ip-172-31-18-93 sshd[28829]: Disconnecting invalid user test1 97.126.91.4 port 54584: Too many authentication failures [preauth]
+Jan 19 17:55:40 ip-172-31-18-93 sshd[28831]: Invalid user test1 from 97.126.91.4 port 54696
+Jan 19 17:55:41 ip-172-31-18-93 sshd[28831]: Received disconnect from 97.126.91.4 port 54696:11: disconnected by user [preauth]
+Jan 19 17:55:41 ip-172-31-18-93 sshd[28831]: Disconnected from invalid user test1 97.126.91.4 port 54696 [preauth]
+Jan 19 17:55:45 ip-172-31-18-93 sshd[28833]: Invalid user test2 from 97.126.91.4 port 54804
+Jan 19 17:55:45 ip-172-31-18-93 sshd[28833]: error: maximum authentication attempts exceeded for invalid user test2 from 97.126.91.4 port 54804 ssh2 [preauth]
+Jan 19 17:55:45 ip-172-31-18-93 sshd[28833]: Disconnecting invalid user test2 97.126.91.4 port 54804: Too many authentication failures [preauth]
+Jan 19 17:55:49 ip-172-31-18-93 sshd[28835]: Invalid user test2 from 97.126.91.4 port 54934
+Jan 19 17:55:50 ip-172-31-18-93 sshd[28835]: error: maximum authentication attempts exceeded for invalid user test2 from 97.126.91.4 port 54934 ssh2 [preauth]
+Jan 19 17:55:50 ip-172-31-18-93 sshd[28835]: Disconnecting invalid user test2 97.126.91.4 port 54934: Too many authentication failures [preauth]
+Jan 19 17:55:55 ip-172-31-18-93 sshd[28837]: Invalid user test2 from 97.126.91.4 port 55074
+Jan 19 17:55:55 ip-172-31-18-93 sshd[28837]: Received disconnect from 97.126.91.4 port 55074:11: disconnected by user [preauth]
+Jan 19 17:55:55 ip-172-31-18-93 sshd[28837]: Disconnected from invalid user test2 97.126.91.4 port 55074 [preauth]
+Jan 19 17:55:59 ip-172-31-18-93 sshd[28839]: Invalid user contador from 97.126.91.4 port 55190
+Jan 19 17:55:59 ip-172-31-18-93 sshd[28839]: Received disconnect from 97.126.91.4 port 55190:11: disconnected by user [preauth]
+Jan 19 17:55:59 ip-172-31-18-93 sshd[28839]: Disconnected from invalid user contador 97.126.91.4 port 55190 [preauth]
+Jan 19 17:56:04 ip-172-31-18-93 sshd[28841]: Invalid user duni from 97.126.91.4 port 55296
+Jan 19 17:56:04 ip-172-31-18-93 sshd[28841]: Received disconnect from 97.126.91.4 port 55296:11: disconnected by user [preauth]
+Jan 19 17:56:04 ip-172-31-18-93 sshd[28841]: Disconnected from invalid user duni 97.126.91.4 port 55296 [preauth]
+Jan 19 17:56:09 ip-172-31-18-93 sshd[28843]: Invalid user pi from 97.126.91.4 port 55434
+Jan 19 17:56:09 ip-172-31-18-93 sshd[28843]: Received disconnect from 97.126.91.4 port 55434:11: disconnected by user [preauth]
+Jan 19 17:56:09 ip-172-31-18-93 sshd[28843]: Disconnected from invalid user pi 97.126.91.4 port 55434 [preauth]
+Jan 19 17:56:15 ip-172-31-18-93 sshd[28845]: Invalid user baikal from 97.126.91.4 port 55566
+Jan 19 17:56:15 ip-172-31-18-93 sshd[28845]: Received disconnect from 97.126.91.4 port 55566:11: disconnected by user [preauth]
+Jan 19 17:56:15 ip-172-31-18-93 sshd[28845]: Disconnected from invalid user baikal 97.126.91.4 port 55566 [preauth]
+Jan 19 17:58:44 ip-172-31-18-93 sshd[28848]: Invalid user elemental from 183.111.96.15 port 59978
+Jan 19 17:58:44 ip-172-31-18-93 sshd[28848]: Received disconnect from 183.111.96.15 port 59978:11: Bye Bye [preauth]
+Jan 19 17:58:44 ip-172-31-18-93 sshd[28848]: Disconnected from invalid user elemental 183.111.96.15 port 59978 [preauth]
+Jan 19 17:59:01 ip-172-31-18-93 sshd[28850]: Invalid user vyos from 179.108.19.202 port 36096
+Jan 19 17:59:01 ip-172-31-18-93 sshd[28850]: Received disconnect from 179.108.19.202 port 36096:11: Bye Bye [preauth]
+Jan 19 17:59:01 ip-172-31-18-93 sshd[28850]: Disconnected from invalid user vyos 179.108.19.202 port 36096 [preauth]
+Jan 19 17:59:31 ip-172-31-18-93 sshd[28853]: Invalid user openhab from 58.221.62.195 port 57639
+Jan 19 17:59:31 ip-172-31-18-93 sshd[28853]: Received disconnect from 58.221.62.195 port 57639:11: Bye Bye [preauth]
+Jan 19 17:59:31 ip-172-31-18-93 sshd[28853]: Disconnected from invalid user openhab 58.221.62.195 port 57639 [preauth]
+Jan 19 18:03:57 ip-172-31-18-93 sshd[28856]: Invalid user devops from 42.192.170.39 port 51410
+Jan 19 18:03:57 ip-172-31-18-93 sshd[28856]: Received disconnect from 42.192.170.39 port 51410:11: Bye Bye [preauth]
+Jan 19 18:03:57 ip-172-31-18-93 sshd[28856]: Disconnected from invalid user devops 42.192.170.39 port 51410 [preauth]
+Jan 19 18:04:14 ip-172-31-18-93 sshd[28858]: Invalid user ashish from 138.197.142.81 port 60288
+Jan 19 18:04:14 ip-172-31-18-93 sshd[28858]: Received disconnect from 138.197.142.81 port 60288:11: Bye Bye [preauth]
+Jan 19 18:04:14 ip-172-31-18-93 sshd[28858]: Disconnected from invalid user ashish 138.197.142.81 port 60288 [preauth]
+Jan 19 18:04:37 ip-172-31-18-93 sshd[28860]: Invalid user jenkins from 157.52.252.12 port 52772
+Jan 19 18:04:37 ip-172-31-18-93 sshd[28860]: Received disconnect from 157.52.252.12 port 52772:11: Bye Bye [preauth]
+Jan 19 18:04:37 ip-172-31-18-93 sshd[28860]: Disconnected from invalid user jenkins 157.52.252.12 port 52772 [preauth]
+Jan 19 18:05:50 ip-172-31-18-93 sshd[28862]: Invalid user usuario from 121.100.28.199 port 42588
+Jan 19 18:05:51 ip-172-31-18-93 sshd[28862]: Received disconnect from 121.100.28.199 port 42588:11: Bye Bye [preauth]
+Jan 19 18:05:51 ip-172-31-18-93 sshd[28862]: Disconnected from invalid user usuario 121.100.28.199 port 42588 [preauth]
+Jan 19 18:08:29 ip-172-31-18-93 sshd[28865]: Invalid user nancy from 182.61.19.225 port 54232
+Jan 19 18:08:29 ip-172-31-18-93 sshd[28865]: Received disconnect from 182.61.19.225 port 54232:11: Bye Bye [preauth]
+Jan 19 18:08:29 ip-172-31-18-93 sshd[28865]: Disconnected from invalid user nancy 182.61.19.225 port 54232 [preauth]
+Jan 19 18:12:23 ip-172-31-18-93 sshd[28868]: Connection closed by 106.53.115.29 port 48356 [preauth]
+Jan 19 18:12:55 ip-172-31-18-93 sshd[28870]: Received disconnect from 49.232.72.13 port 32928:11: Bye Bye [preauth]
+Jan 19 18:12:55 ip-172-31-18-93 sshd[28870]: Disconnected from authenticating user root 49.232.72.13 port 32928 [preauth]
+Jan 19 18:17:01 ip-172-31-18-93 CRON[28874]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 19 18:17:01 ip-172-31-18-93 CRON[28874]: pam_unix(cron:session): session closed for user root
+Jan 19 18:41:46 ip-172-31-18-93 sshd[28880]: error: kex_exchange_identification: Connection closed by remote host
+Jan 19 18:46:48 ip-172-31-18-93 sshd[28883]: Invalid user arnold from 51.195.101.173 port 33236
+Jan 19 18:46:48 ip-172-31-18-93 sshd[28883]: Received disconnect from 51.195.101.173 port 33236:11: Bye Bye [preauth]
+Jan 19 18:46:48 ip-172-31-18-93 sshd[28883]: Disconnected from invalid user arnold 51.195.101.173 port 33236 [preauth]
+Jan 19 18:56:30 ip-172-31-18-93 sshd[28887]: error: kex_exchange_identification: Connection closed by remote host
+Jan 19 19:02:29 ip-172-31-18-93 sshd[28895]: Invalid user oracle from 209.141.55.247 port 39744
+Jan 19 19:02:29 ip-172-31-18-93 sshd[28898]: Invalid user postgres from 209.141.55.247 port 39746
+Jan 19 19:02:29 ip-172-31-18-93 sshd[28893]: Invalid user ec2-user from 209.141.55.247 port 39740
+Jan 19 19:02:29 ip-172-31-18-93 sshd[28897]: Invalid user azureuser from 209.141.55.247 port 39758
+Jan 19 19:02:29 ip-172-31-18-93 sshd[28896]: Invalid user user from 209.141.55.247 port 39752
+Jan 19 19:02:29 ip-172-31-18-93 sshd[28892]: Invalid user opc from 209.141.55.247 port 39762
+Jan 19 19:02:35 ip-172-31-18-93 sshd[28899]: Invalid user postfix from 209.141.55.247 port 39756
+Jan 19 19:02:35 ip-172-31-18-93 sshd[28890]: Invalid user vagrant from 209.141.55.247 port 39748
+Jan 19 19:02:35 ip-172-31-18-93 sshd[28894]: Connection closed by authenticating user ubuntu 209.141.55.247 port 39742 [preauth]
+Jan 19 19:02:35 ip-172-31-18-93 sshd[28893]: Connection closed by invalid user ec2-user 209.141.55.247 port 39740 [preauth]
+Jan 19 19:02:35 ip-172-31-18-93 sshd[28895]: Connection closed by invalid user oracle 209.141.55.247 port 39744 [preauth]
+Jan 19 19:02:35 ip-172-31-18-93 sshd[28896]: Connection closed by invalid user user 209.141.55.247 port 39752 [preauth]
+Jan 19 19:02:35 ip-172-31-18-93 sshd[28892]: Connection closed by invalid user opc 209.141.55.247 port 39762 [preauth]
+Jan 19 19:02:35 ip-172-31-18-93 sshd[28897]: Connection closed by invalid user azureuser 209.141.55.247 port 39758 [preauth]
+Jan 19 19:02:35 ip-172-31-18-93 sshd[28891]: Connection closed by authenticating user root 209.141.55.247 port 39754 [preauth]
+Jan 19 19:02:35 ip-172-31-18-93 sshd[28898]: Connection closed by invalid user postgres 209.141.55.247 port 39746 [preauth]
+Jan 19 19:02:40 ip-172-31-18-93 sshd[28899]: Connection closed by invalid user postfix 209.141.55.247 port 39756 [preauth]
+Jan 19 19:02:40 ip-172-31-18-93 sshd[28890]: Connection closed by invalid user vagrant 209.141.55.247 port 39748 [preauth]
+Jan 19 19:02:51 ip-172-31-18-93 sshd[28910]: Invalid user postgres from 68.183.218.177 port 53804
+Jan 19 19:02:51 ip-172-31-18-93 sshd[28910]: Received disconnect from 68.183.218.177 port 53804:11: Bye Bye [preauth]
+Jan 19 19:02:51 ip-172-31-18-93 sshd[28910]: Disconnected from invalid user postgres 68.183.218.177 port 53804 [preauth]
+Jan 19 19:03:52 ip-172-31-18-93 sshd[28913]: Unable to negotiate with 167.172.166.193 port 50502: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 19:13:05 ip-172-31-18-93 sshd[28916]: error: kex_exchange_identification: Connection closed by remote host
+Jan 19 19:17:01 ip-172-31-18-93 CRON[28918]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 19 19:17:01 ip-172-31-18-93 CRON[28918]: pam_unix(cron:session): session closed for user root
+Jan 19 19:21:32 ip-172-31-18-93 sshd[28922]: Unable to negotiate with 167.172.161.10 port 57934: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 19:31:13 ip-172-31-18-93 sshd[28925]: Received disconnect from 178.62.73.69 port 47926:11: Bye Bye [preauth]
+Jan 19 19:31:13 ip-172-31-18-93 sshd[28925]: Disconnected from authenticating user root 178.62.73.69 port 47926 [preauth]
+Jan 19 19:33:56 ip-172-31-18-93 sshd[1620]: pam_unix(sshd:session): session closed for user ubuntu
+Jan 19 19:33:56 ip-172-31-18-93 sshd[1620]: pam_systemd(sshd:session): Failed to release session: No session '1' known
+Jan 19 19:45:36 ip-172-31-18-93 sshd[28934]: Invalid user nicola from 202.61.133.80 port 39426
+Jan 19 19:45:36 ip-172-31-18-93 sshd[28934]: Received disconnect from 202.61.133.80 port 39426:11: Bye Bye [preauth]
+Jan 19 19:45:36 ip-172-31-18-93 sshd[28934]: Disconnected from invalid user nicola 202.61.133.80 port 39426 [preauth]
+Jan 19 19:49:19 ip-172-31-18-93 sshd[28937]: Invalid user webadmin from 129.28.12.228 port 56368
+Jan 19 19:49:19 ip-172-31-18-93 sshd[28937]: Received disconnect from 129.28.12.228 port 56368:11: Bye Bye [preauth]
+Jan 19 19:49:19 ip-172-31-18-93 sshd[28937]: Disconnected from invalid user webadmin 129.28.12.228 port 56368 [preauth]
+Jan 19 19:54:14 ip-172-31-18-93 sshd[28940]: error: kex_exchange_identification: Connection closed by remote host
+Jan 19 19:57:12 ip-172-31-18-93 sshd[28942]: Received disconnect from 197.5.145.88 port 18369:11: Bye Bye [preauth]
+Jan 19 19:57:12 ip-172-31-18-93 sshd[28942]: Disconnected from authenticating user root 197.5.145.88 port 18369 [preauth]
+Jan 19 19:59:37 ip-172-31-18-93 sshd[28945]: Received disconnect from 117.50.31.176 port 50206:11: Bye Bye [preauth]
+Jan 19 19:59:37 ip-172-31-18-93 sshd[28945]: Disconnected from authenticating user root 117.50.31.176 port 50206 [preauth]
+Jan 19 20:03:52 ip-172-31-18-93 sshd[28947]: Received disconnect from 192.241.175.250 port 59619:11: Bye Bye [preauth]
+Jan 19 20:03:52 ip-172-31-18-93 sshd[28947]: Disconnected from authenticating user root 192.241.175.250 port 59619 [preauth]
+Jan 19 20:04:20 ip-172-31-18-93 sshd[28949]: Received disconnect from 188.166.161.142 port 32830:11: Bye Bye [preauth]
+Jan 19 20:04:20 ip-172-31-18-93 sshd[28949]: Disconnected from authenticating user root 188.166.161.142 port 32830 [preauth]
+Jan 19 20:04:22 ip-172-31-18-93 sshd[28951]: Invalid user bianca from 51.178.47.46 port 55344
+Jan 19 20:04:22 ip-172-31-18-93 sshd[28951]: Received disconnect from 51.178.47.46 port 55344:11: Bye Bye [preauth]
+Jan 19 20:04:22 ip-172-31-18-93 sshd[28951]: Disconnected from invalid user bianca 51.178.47.46 port 55344 [preauth]
+Jan 19 20:05:25 ip-172-31-18-93 sshd[28954]: Invalid user guest01 from 23.101.112.231 port 51268
+Jan 19 20:05:25 ip-172-31-18-93 sshd[28954]: Received disconnect from 23.101.112.231 port 51268:11: Bye Bye [preauth]
+Jan 19 20:05:25 ip-172-31-18-93 sshd[28954]: Disconnected from invalid user guest01 23.101.112.231 port 51268 [preauth]
+Jan 19 20:10:31 ip-172-31-18-93 sshd[28958]: Invalid user temp from 181.48.225.126 port 57180
+Jan 19 20:10:31 ip-172-31-18-93 sshd[28958]: Received disconnect from 181.48.225.126 port 57180:11: Bye Bye [preauth]
+Jan 19 20:10:31 ip-172-31-18-93 sshd[28958]: Disconnected from invalid user temp 181.48.225.126 port 57180 [preauth]
+Jan 19 20:12:17 ip-172-31-18-93 sshd[28962]: Invalid user ftpuser from 81.69.170.217 port 47994
+Jan 19 20:12:17 ip-172-31-18-93 sshd[28962]: Received disconnect from 81.69.170.217 port 47994:11: Bye Bye [preauth]
+Jan 19 20:12:17 ip-172-31-18-93 sshd[28962]: Disconnected from invalid user ftpuser 81.69.170.217 port 47994 [preauth]
+Jan 19 20:12:29 ip-172-31-18-93 sshd[28960]: Connection closed by 74.120.14.37 port 43752 [preauth]
+Jan 19 20:16:37 ip-172-31-18-93 sshd[28967]: error: kex_exchange_identification: banner line contains invalid characters
+Jan 19 20:17:01 ip-172-31-18-93 CRON[28968]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 19 20:17:01 ip-172-31-18-93 CRON[28968]: pam_unix(cron:session): session closed for user root
+Jan 19 20:19:02 ip-172-31-18-93 sshd[28971]: error: kex_exchange_identification: Connection closed by remote host
+Jan 19 20:25:58 ip-172-31-18-93 sshd[28974]: Unable to negotiate with 174.138.12.116 port 37492: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 20:39:38 ip-172-31-18-93 sshd[28977]: Connection closed by 209.17.97.66 port 54697 [preauth]
+Jan 19 20:42:06 ip-172-31-18-93 sshd[28981]: Received disconnect from 110.78.208.28 port 45122:11: Bye Bye [preauth]
+Jan 19 20:42:06 ip-172-31-18-93 sshd[28981]: Disconnected from authenticating user root 110.78.208.28 port 45122 [preauth]
+Jan 19 20:42:33 ip-172-31-18-93 sshd[28983]: Invalid user isaac from 185.126.218.9 port 49726
+Jan 19 20:42:33 ip-172-31-18-93 sshd[28983]: Received disconnect from 185.126.218.9 port 49726:11: Bye Bye [preauth]
+Jan 19 20:42:33 ip-172-31-18-93 sshd[28983]: Disconnected from invalid user isaac 185.126.218.9 port 49726 [preauth]
+Jan 19 20:44:31 ip-172-31-18-93 sshd[28986]: Invalid user tsbot from 81.70.201.21 port 42350
+Jan 19 20:44:31 ip-172-31-18-93 sshd[28986]: Received disconnect from 81.70.201.21 port 42350:11: Bye Bye [preauth]
+Jan 19 20:44:31 ip-172-31-18-93 sshd[28986]: Disconnected from invalid user tsbot 81.70.201.21 port 42350 [preauth]
+Jan 19 20:45:13 ip-172-31-18-93 sshd[28989]: Invalid user test from 40.117.75.152 port 50824
+Jan 19 20:45:13 ip-172-31-18-93 sshd[28989]: Received disconnect from 40.117.75.152 port 50824:11: Bye Bye [preauth]
+Jan 19 20:45:13 ip-172-31-18-93 sshd[28989]: Disconnected from invalid user test 40.117.75.152 port 50824 [preauth]
+Jan 19 20:51:52 ip-172-31-18-93 sshd[28993]: Invalid user wang from 118.25.2.109 port 41346
+Jan 19 20:51:53 ip-172-31-18-93 sshd[28993]: Received disconnect from 118.25.2.109 port 41346:11: Bye Bye [preauth]
+Jan 19 20:51:53 ip-172-31-18-93 sshd[28993]: Disconnected from invalid user wang 118.25.2.109 port 41346 [preauth]
+Jan 19 20:52:21 ip-172-31-18-93 sshd[28995]: Invalid user admin from 72.137.167.242 port 30729
+Jan 19 20:52:21 ip-172-31-18-93 sshd[28995]: Received disconnect from 72.137.167.242 port 30729:11: Bye Bye [preauth]
+Jan 19 20:52:21 ip-172-31-18-93 sshd[28995]: Disconnected from invalid user admin 72.137.167.242 port 30729 [preauth]
+Jan 19 20:58:29 ip-172-31-18-93 sshd[28999]: Invalid user bot from 46.17.252.134 port 45400
+Jan 19 20:58:30 ip-172-31-18-93 sshd[28999]: Received disconnect from 46.17.252.134 port 45400:11: Bye Bye [preauth]
+Jan 19 20:58:30 ip-172-31-18-93 sshd[28999]: Disconnected from invalid user bot 46.17.252.134 port 45400 [preauth]
+Jan 19 21:12:28 ip-172-31-18-93 sshd[29002]: Received disconnect from 59.126.51.197 port 45028:11: Bye Bye [preauth]
+Jan 19 21:12:28 ip-172-31-18-93 sshd[29002]: Disconnected from authenticating user root 59.126.51.197 port 45028 [preauth]
+Jan 19 21:15:46 ip-172-31-18-93 sshd[29006]: Invalid user developer from 104.131.39.238 port 53968
+Jan 19 21:15:46 ip-172-31-18-93 sshd[29006]: Received disconnect from 104.131.39.238 port 53968:11: Bye Bye [preauth]
+Jan 19 21:15:46 ip-172-31-18-93 sshd[29006]: Disconnected from invalid user developer 104.131.39.238 port 53968 [preauth]
+Jan 19 21:16:43 ip-172-31-18-93 sshd[29008]: error: maximum authentication attempts exceeded for root from 63.153.178.14 port 36344 ssh2 [preauth]
+Jan 19 21:16:43 ip-172-31-18-93 sshd[29008]: Disconnecting authenticating user root 63.153.178.14 port 36344: Too many authentication failures [preauth]
+Jan 19 21:16:47 ip-172-31-18-93 sshd[29010]: error: maximum authentication attempts exceeded for root from 63.153.178.14 port 36458 ssh2 [preauth]
+Jan 19 21:16:47 ip-172-31-18-93 sshd[29010]: Disconnecting authenticating user root 63.153.178.14 port 36458: Too many authentication failures [preauth]
+Jan 19 21:16:51 ip-172-31-18-93 sshd[29012]: Received disconnect from 63.153.178.14 port 36568:11: disconnected by user [preauth]
+Jan 19 21:16:51 ip-172-31-18-93 sshd[29012]: Disconnected from authenticating user root 63.153.178.14 port 36568 [preauth]
+Jan 19 21:16:56 ip-172-31-18-93 sshd[29014]: Invalid user admin from 63.153.178.14 port 36696
+Jan 19 21:16:57 ip-172-31-18-93 sshd[29014]: error: maximum authentication attempts exceeded for invalid user admin from 63.153.178.14 port 36696 ssh2 [preauth]
+Jan 19 21:16:57 ip-172-31-18-93 sshd[29014]: Disconnecting invalid user admin 63.153.178.14 port 36696: Too many authentication failures [preauth]
+Jan 19 21:17:01 ip-172-31-18-93 sshd[29016]: Invalid user admin from 63.153.178.14 port 36834
+Jan 19 21:17:01 ip-172-31-18-93 CRON[29018]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 19 21:17:01 ip-172-31-18-93 CRON[29018]: pam_unix(cron:session): session closed for user root
+Jan 19 21:17:02 ip-172-31-18-93 sshd[29016]: error: maximum authentication attempts exceeded for invalid user admin from 63.153.178.14 port 36834 ssh2 [preauth]
+Jan 19 21:17:02 ip-172-31-18-93 sshd[29016]: Disconnecting invalid user admin 63.153.178.14 port 36834: Too many authentication failures [preauth]
+Jan 19 21:17:06 ip-172-31-18-93 sshd[29021]: Invalid user admin from 63.153.178.14 port 36976
+Jan 19 21:17:06 ip-172-31-18-93 sshd[29021]: Received disconnect from 63.153.178.14 port 36976:11: disconnected by user [preauth]
+Jan 19 21:17:06 ip-172-31-18-93 sshd[29021]: Disconnected from invalid user admin 63.153.178.14 port 36976 [preauth]
+Jan 19 21:17:11 ip-172-31-18-93 sshd[29023]: Invalid user oracle from 63.153.178.14 port 37102
+Jan 19 21:17:11 ip-172-31-18-93 sshd[29023]: error: maximum authentication attempts exceeded for invalid user oracle from 63.153.178.14 port 37102 ssh2 [preauth]
+Jan 19 21:17:11 ip-172-31-18-93 sshd[29023]: Disconnecting invalid user oracle 63.153.178.14 port 37102: Too many authentication failures [preauth]
+Jan 19 21:17:16 ip-172-31-18-93 sshd[29025]: Invalid user oracle from 63.153.178.14 port 37238
+Jan 19 21:17:16 ip-172-31-18-93 sshd[29025]: error: maximum authentication attempts exceeded for invalid user oracle from 63.153.178.14 port 37238 ssh2 [preauth]
+Jan 19 21:17:16 ip-172-31-18-93 sshd[29025]: Disconnecting invalid user oracle 63.153.178.14 port 37238: Too many authentication failures [preauth]
+Jan 19 21:17:20 ip-172-31-18-93 sshd[29027]: Invalid user oracle from 63.153.178.14 port 37378
+Jan 19 21:17:20 ip-172-31-18-93 sshd[29027]: Received disconnect from 63.153.178.14 port 37378:11: disconnected by user [preauth]
+Jan 19 21:17:20 ip-172-31-18-93 sshd[29027]: Disconnected from invalid user oracle 63.153.178.14 port 37378 [preauth]
+Jan 19 21:17:23 ip-172-31-18-93 sshd[29029]: Invalid user usuario from 63.153.178.14 port 37470
+Jan 19 21:17:24 ip-172-31-18-93 sshd[29029]: error: maximum authentication attempts exceeded for invalid user usuario from 63.153.178.14 port 37470 ssh2 [preauth]
+Jan 19 21:17:24 ip-172-31-18-93 sshd[29029]: Disconnecting invalid user usuario 63.153.178.14 port 37470: Too many authentication failures [preauth]
+Jan 19 21:17:28 ip-172-31-18-93 sshd[29031]: Invalid user usuario from 63.153.178.14 port 37564
+Jan 19 21:17:29 ip-172-31-18-93 sshd[29031]: error: maximum authentication attempts exceeded for invalid user usuario from 63.153.178.14 port 37564 ssh2 [preauth]
+Jan 19 21:17:29 ip-172-31-18-93 sshd[29031]: Disconnecting invalid user usuario 63.153.178.14 port 37564: Too many authentication failures [preauth]
+Jan 19 21:17:34 ip-172-31-18-93 sshd[29034]: Invalid user usuario from 63.153.178.14 port 37716
+Jan 19 21:17:34 ip-172-31-18-93 sshd[29034]: Received disconnect from 63.153.178.14 port 37716:11: disconnected by user [preauth]
+Jan 19 21:17:34 ip-172-31-18-93 sshd[29034]: Disconnected from invalid user usuario 63.153.178.14 port 37716 [preauth]
+Jan 19 21:17:39 ip-172-31-18-93 sshd[29036]: Invalid user test from 63.153.178.14 port 37840
+Jan 19 21:17:39 ip-172-31-18-93 sshd[29036]: error: maximum authentication attempts exceeded for invalid user test from 63.153.178.14 port 37840 ssh2 [preauth]
+Jan 19 21:17:39 ip-172-31-18-93 sshd[29036]: Disconnecting invalid user test 63.153.178.14 port 37840: Too many authentication failures [preauth]
+Jan 19 21:17:45 ip-172-31-18-93 sshd[29038]: Invalid user test from 63.153.178.14 port 38000
+Jan 19 21:17:45 ip-172-31-18-93 sshd[29038]: error: maximum authentication attempts exceeded for invalid user test from 63.153.178.14 port 38000 ssh2 [preauth]
+Jan 19 21:17:45 ip-172-31-18-93 sshd[29038]: Disconnecting invalid user test 63.153.178.14 port 38000: Too many authentication failures [preauth]
+Jan 19 21:17:50 ip-172-31-18-93 sshd[29040]: Invalid user test from 63.153.178.14 port 38156
+Jan 19 21:17:50 ip-172-31-18-93 sshd[29040]: Received disconnect from 63.153.178.14 port 38156:11: disconnected by user [preauth]
+Jan 19 21:17:50 ip-172-31-18-93 sshd[29040]: Disconnected from invalid user test 63.153.178.14 port 38156 [preauth]
+Jan 19 21:17:55 ip-172-31-18-93 sshd[29042]: Invalid user user from 63.153.178.14 port 38278
+Jan 19 21:17:55 ip-172-31-18-93 sshd[29042]: error: maximum authentication attempts exceeded for invalid user user from 63.153.178.14 port 38278 ssh2 [preauth]
+Jan 19 21:17:55 ip-172-31-18-93 sshd[29042]: Disconnecting invalid user user 63.153.178.14 port 38278: Too many authentication failures [preauth]
+Jan 19 21:18:02 ip-172-31-18-93 sshd[29044]: Invalid user user from 63.153.178.14 port 38458
+Jan 19 21:18:02 ip-172-31-18-93 sshd[29044]: error: maximum authentication attempts exceeded for invalid user user from 63.153.178.14 port 38458 ssh2 [preauth]
+Jan 19 21:18:02 ip-172-31-18-93 sshd[29044]: Disconnecting invalid user user 63.153.178.14 port 38458: Too many authentication failures [preauth]
+Jan 19 21:18:08 ip-172-31-18-93 sshd[29046]: Invalid user user from 63.153.178.14 port 38686
+Jan 19 21:18:09 ip-172-31-18-93 sshd[29046]: Received disconnect from 63.153.178.14 port 38686:11: disconnected by user [preauth]
+Jan 19 21:18:09 ip-172-31-18-93 sshd[29046]: Disconnected from invalid user user 63.153.178.14 port 38686 [preauth]
+Jan 19 21:18:15 ip-172-31-18-93 sshd[29048]: Invalid user ftpuser from 63.153.178.14 port 38858
+Jan 19 21:18:15 ip-172-31-18-93 sshd[29048]: error: maximum authentication attempts exceeded for invalid user ftpuser from 63.153.178.14 port 38858 ssh2 [preauth]
+Jan 19 21:18:15 ip-172-31-18-93 sshd[29048]: Disconnecting invalid user ftpuser 63.153.178.14 port 38858: Too many authentication failures [preauth]
+Jan 19 21:18:21 ip-172-31-18-93 sshd[29050]: Invalid user ftpuser from 63.153.178.14 port 39056
+Jan 19 21:18:21 ip-172-31-18-93 sshd[29050]: error: maximum authentication attempts exceeded for invalid user ftpuser from 63.153.178.14 port 39056 ssh2 [preauth]
+Jan 19 21:18:21 ip-172-31-18-93 sshd[29050]: Disconnecting invalid user ftpuser 63.153.178.14 port 39056: Too many authentication failures [preauth]
+Jan 19 21:18:26 ip-172-31-18-93 sshd[29052]: Invalid user ftpuser from 63.153.178.14 port 39228
+Jan 19 21:18:27 ip-172-31-18-93 sshd[29052]: Received disconnect from 63.153.178.14 port 39228:11: disconnected by user [preauth]
+Jan 19 21:18:27 ip-172-31-18-93 sshd[29052]: Disconnected from invalid user ftpuser 63.153.178.14 port 39228 [preauth]
+Jan 19 21:18:32 ip-172-31-18-93 sshd[29054]: Invalid user test1 from 63.153.178.14 port 39384
+Jan 19 21:18:32 ip-172-31-18-93 sshd[29054]: error: maximum authentication attempts exceeded for invalid user test1 from 63.153.178.14 port 39384 ssh2 [preauth]
+Jan 19 21:18:32 ip-172-31-18-93 sshd[29054]: Disconnecting invalid user test1 63.153.178.14 port 39384: Too many authentication failures [preauth]
+Jan 19 21:18:38 ip-172-31-18-93 sshd[29056]: Invalid user test1 from 63.153.178.14 port 39598
+Jan 19 21:18:39 ip-172-31-18-93 sshd[29056]: error: maximum authentication attempts exceeded for invalid user test1 from 63.153.178.14 port 39598 ssh2 [preauth]
+Jan 19 21:18:39 ip-172-31-18-93 sshd[29056]: Disconnecting invalid user test1 63.153.178.14 port 39598: Too many authentication failures [preauth]
+Jan 19 21:18:45 ip-172-31-18-93 sshd[29058]: Invalid user test1 from 63.153.178.14 port 39754
+Jan 19 21:18:45 ip-172-31-18-93 sshd[29058]: Received disconnect from 63.153.178.14 port 39754:11: disconnected by user [preauth]
+Jan 19 21:18:45 ip-172-31-18-93 sshd[29058]: Disconnected from invalid user test1 63.153.178.14 port 39754 [preauth]
+Jan 19 21:18:49 ip-172-31-18-93 sshd[29060]: Invalid user test2 from 63.153.178.14 port 39932
+Jan 19 21:18:49 ip-172-31-18-93 sshd[29060]: error: maximum authentication attempts exceeded for invalid user test2 from 63.153.178.14 port 39932 ssh2 [preauth]
+Jan 19 21:18:49 ip-172-31-18-93 sshd[29060]: Disconnecting invalid user test2 63.153.178.14 port 39932: Too many authentication failures [preauth]
+Jan 19 21:18:54 ip-172-31-18-93 sshd[29062]: Invalid user test2 from 63.153.178.14 port 40058
+Jan 19 21:18:55 ip-172-31-18-93 sshd[29062]: error: maximum authentication attempts exceeded for invalid user test2 from 63.153.178.14 port 40058 ssh2 [preauth]
+Jan 19 21:18:55 ip-172-31-18-93 sshd[29062]: Disconnecting invalid user test2 63.153.178.14 port 40058: Too many authentication failures [preauth]
+Jan 19 21:18:59 ip-172-31-18-93 sshd[29064]: Invalid user test2 from 63.153.178.14 port 40206
+Jan 19 21:19:00 ip-172-31-18-93 sshd[29064]: Received disconnect from 63.153.178.14 port 40206:11: disconnected by user [preauth]
+Jan 19 21:19:00 ip-172-31-18-93 sshd[29064]: Disconnected from invalid user test2 63.153.178.14 port 40206 [preauth]
+Jan 19 21:19:04 ip-172-31-18-93 sshd[29066]: Invalid user contador from 63.153.178.14 port 40358
+Jan 19 21:19:04 ip-172-31-18-93 sshd[29066]: Received disconnect from 63.153.178.14 port 40358:11: disconnected by user [preauth]
+Jan 19 21:19:04 ip-172-31-18-93 sshd[29066]: Disconnected from invalid user contador 63.153.178.14 port 40358 [preauth]
+Jan 19 21:19:08 ip-172-31-18-93 sshd[29068]: Invalid user duni from 63.153.178.14 port 40494
+Jan 19 21:19:08 ip-172-31-18-93 sshd[29068]: Received disconnect from 63.153.178.14 port 40494:11: disconnected by user [preauth]
+Jan 19 21:19:08 ip-172-31-18-93 sshd[29068]: Disconnected from invalid user duni 63.153.178.14 port 40494 [preauth]
+Jan 19 21:19:12 ip-172-31-18-93 sshd[29070]: Invalid user pi from 63.153.178.14 port 40608
+Jan 19 21:19:12 ip-172-31-18-93 sshd[29070]: Received disconnect from 63.153.178.14 port 40608:11: disconnected by user [preauth]
+Jan 19 21:19:12 ip-172-31-18-93 sshd[29070]: Disconnected from invalid user pi 63.153.178.14 port 40608 [preauth]
+Jan 19 21:19:16 ip-172-31-18-93 sshd[29072]: Invalid user baikal from 63.153.178.14 port 40722
+Jan 19 21:19:16 ip-172-31-18-93 sshd[29072]: Received disconnect from 63.153.178.14 port 40722:11: disconnected by user [preauth]
+Jan 19 21:19:16 ip-172-31-18-93 sshd[29072]: Disconnected from invalid user baikal 63.153.178.14 port 40722 [preauth]
+Jan 19 21:22:36 ip-172-31-18-93 sshd[29078]: error: kex_exchange_identification: banner line contains invalid characters
+Jan 19 21:22:50 ip-172-31-18-93 sshd[29076]: Connection closed by 162.142.125.38 port 45236 [preauth]
+Jan 19 21:23:28 ip-172-31-18-93 sshd[29079]: Received disconnect from 165.22.236.96 port 48662:11: Bye Bye [preauth]
+Jan 19 21:23:28 ip-172-31-18-93 sshd[29079]: Disconnected from authenticating user root 165.22.236.96 port 48662 [preauth]
+Jan 19 21:24:14 ip-172-31-18-93 sshd[29081]: Invalid user cesar from 49.232.131.72 port 47594
+Jan 19 21:24:15 ip-172-31-18-93 sshd[29081]: Received disconnect from 49.232.131.72 port 47594:11: Bye Bye [preauth]
+Jan 19 21:24:15 ip-172-31-18-93 sshd[29081]: Disconnected from invalid user cesar 49.232.131.72 port 47594 [preauth]
+Jan 19 21:25:07 ip-172-31-18-93 sshd[29083]: Invalid user git from 179.191.69.146 port 2845
+Jan 19 21:25:07 ip-172-31-18-93 sshd[29083]: Received disconnect from 179.191.69.146 port 2845:11: Bye Bye [preauth]
+Jan 19 21:25:07 ip-172-31-18-93 sshd[29083]: Disconnected from invalid user git 179.191.69.146 port 2845 [preauth]
+Jan 19 21:25:53 ip-172-31-18-93 sshd[29086]: Invalid user ts from 128.199.152.57 port 36802
+Jan 19 21:25:53 ip-172-31-18-93 sshd[29086]: Received disconnect from 128.199.152.57 port 36802:11: Bye Bye [preauth]
+Jan 19 21:25:53 ip-172-31-18-93 sshd[29086]: Disconnected from invalid user ts 128.199.152.57 port 36802 [preauth]
+Jan 19 21:26:53 ip-172-31-18-93 sshd[29088]: Received disconnect from 208.180.145.93 port 36914:11: Bye Bye [preauth]
+Jan 19 21:26:53 ip-172-31-18-93 sshd[29088]: Disconnected from authenticating user root 208.180.145.93 port 36914 [preauth]
+Jan 19 21:27:37 ip-172-31-18-93 sshd[29091]: error: kex_exchange_identification: Connection closed by remote host
+Jan 19 21:27:50 ip-172-31-18-93 sshd[29092]: Invalid user webadmin from 81.4.110.236 port 44224
+Jan 19 21:27:50 ip-172-31-18-93 sshd[29092]: Received disconnect from 81.4.110.236 port 44224:11: Bye Bye [preauth]
+Jan 19 21:27:50 ip-172-31-18-93 sshd[29092]: Disconnected from invalid user webadmin 81.4.110.236 port 44224 [preauth]
+Jan 19 21:30:59 ip-172-31-18-93 sshd[29094]: Received disconnect from 104.197.240.29 port 49718:11: Bye Bye [preauth]
+Jan 19 21:30:59 ip-172-31-18-93 sshd[29094]: Disconnected from authenticating user root 104.197.240.29 port 49718 [preauth]
+Jan 19 21:32:09 ip-172-31-18-93 sshd[29096]: Invalid user vodafone from 34.72.107.214 port 41700
+Jan 19 21:32:09 ip-172-31-18-93 sshd[29096]: Received disconnect from 34.72.107.214 port 41700:11: Bye Bye [preauth]
+Jan 19 21:32:09 ip-172-31-18-93 sshd[29096]: Disconnected from invalid user vodafone 34.72.107.214 port 41700 [preauth]
+Jan 19 21:34:38 ip-172-31-18-93 sshd[29099]: Unable to negotiate with 138.68.89.69 port 54014: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 21:40:40 ip-172-31-18-93 sshd[29103]: Received disconnect from 221.181.185.143 port 62625:11:  [preauth]
+Jan 19 21:40:40 ip-172-31-18-93 sshd[29103]: Disconnected from authenticating user root 221.181.185.143 port 62625 [preauth]
+Jan 19 21:48:05 ip-172-31-18-93 sshd[29107]: error: kex_exchange_identification: Connection closed by remote host
+Jan 19 21:52:51 ip-172-31-18-93 sshd[29109]: Invalid user factorio from 193.105.83.6 port 33942
+Jan 19 21:52:51 ip-172-31-18-93 sshd[29109]: Received disconnect from 193.105.83.6 port 33942:11: Bye Bye [preauth]
+Jan 19 21:52:51 ip-172-31-18-93 sshd[29109]: Disconnected from invalid user factorio 193.105.83.6 port 33942 [preauth]
+Jan 19 21:53:35 ip-172-31-18-93 sshd[29112]: Invalid user daniel from 1.10.246.179 port 46504
+Jan 19 21:53:35 ip-172-31-18-93 sshd[29112]: Received disconnect from 1.10.246.179 port 46504:11: Bye Bye [preauth]
+Jan 19 21:53:35 ip-172-31-18-93 sshd[29112]: Disconnected from invalid user daniel 1.10.246.179 port 46504 [preauth]
+Jan 19 21:56:35 ip-172-31-18-93 sshd[29115]: Unable to negotiate with 167.172.161.10 port 55860: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 21:58:21 ip-172-31-18-93 sshd[29117]: error: kex_exchange_identification: Connection closed by remote host
+Jan 19 21:58:28 ip-172-31-18-93 sshd[29118]: Connection closed by authenticating user root 81.161.63.251 port 57030 [preauth]
+Jan 19 22:08:59 ip-172-31-18-93 sshd[29168]: Invalid user ck from 142.93.65.9 port 42082
+Jan 19 22:08:59 ip-172-31-18-93 sshd[29168]: Received disconnect from 142.93.65.9 port 42082:11: Bye Bye [preauth]
+Jan 19 22:08:59 ip-172-31-18-93 sshd[29168]: Disconnected from invalid user ck 142.93.65.9 port 42082 [preauth]
+Jan 19 22:10:30 ip-172-31-18-93 sshd[29171]: Received disconnect from 51.15.67.6 port 47100:11: Bye Bye [preauth]
+Jan 19 22:10:30 ip-172-31-18-93 sshd[29171]: Disconnected from authenticating user root 51.15.67.6 port 47100 [preauth]
+Jan 19 22:12:41 ip-172-31-18-93 sshd[29173]: Invalid user warehouse from 119.28.163.72 port 56730
+Jan 19 22:12:41 ip-172-31-18-93 sshd[29173]: Received disconnect from 119.28.163.72 port 56730:11: Bye Bye [preauth]
+Jan 19 22:12:41 ip-172-31-18-93 sshd[29173]: Disconnected from invalid user warehouse 119.28.163.72 port 56730 [preauth]
+Jan 19 22:14:42 ip-172-31-18-93 sshd[29177]: Received disconnect from 221.181.185.18 port 63398:11:  [preauth]
+Jan 19 22:14:42 ip-172-31-18-93 sshd[29177]: Disconnected from authenticating user root 221.181.185.18 port 63398 [preauth]
+Jan 19 22:17:01 ip-172-31-18-93 CRON[29180]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 19 22:17:01 ip-172-31-18-93 CRON[29180]: pam_unix(cron:session): session closed for user root
+Jan 19 22:17:41 ip-172-31-18-93 sshd[29183]: Received disconnect from 51.254.222.185 port 44266:11: Bye Bye [preauth]
+Jan 19 22:17:41 ip-172-31-18-93 sshd[29183]: Disconnected from authenticating user root 51.254.222.185 port 44266 [preauth]
+Jan 19 22:26:49 ip-172-31-18-93 sshd[29186]: error: kex_exchange_identification: Connection closed by remote host
+Jan 19 22:34:18 ip-172-31-18-93 sshd[29189]: Unable to negotiate with 167.172.166.193 port 44600: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 22:39:42 ip-172-31-18-93 sshd[29192]: Connection closed by 71.2.144.243 port 40562 [preauth]
+Jan 19 22:44:46 ip-172-31-18-93 sshd[29197]: error: kex_exchange_identification: Connection closed by remote host
+Jan 19 22:45:14 ip-172-31-18-93 sshd[29198]: Unable to negotiate with 45.15.143.198 port 43898: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 22:45:45 ip-172-31-18-93 sshd[29201]: Unable to negotiate with 45.15.143.198 port 46092: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 22:46:17 ip-172-31-18-93 sshd[29203]: Unable to negotiate with 45.15.143.198 port 49048: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 22:46:46 ip-172-31-18-93 sshd[29205]: Unable to negotiate with 45.15.143.198 port 50558: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 22:47:14 ip-172-31-18-93 sshd[29207]: Unable to negotiate with 45.15.143.198 port 53060: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 22:47:41 ip-172-31-18-93 sshd[29209]: Unable to negotiate with 45.15.143.198 port 54936: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 22:48:09 ip-172-31-18-93 sshd[29213]: Unable to negotiate with 45.15.143.198 port 57042: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 22:48:38 ip-172-31-18-93 sshd[29215]: Unable to negotiate with 45.15.143.198 port 59350: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 22:49:06 ip-172-31-18-93 sshd[29217]: Unable to negotiate with 45.15.143.198 port 33214: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 22:49:36 ip-172-31-18-93 sshd[29219]: Unable to negotiate with 45.15.143.198 port 35460: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 22:50:04 ip-172-31-18-93 sshd[29222]: Unable to negotiate with 45.15.143.198 port 37716: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 22:50:32 ip-172-31-18-93 sshd[29224]: Unable to negotiate with 45.15.143.198 port 39854: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 22:50:59 ip-172-31-18-93 sshd[29226]: Unable to negotiate with 45.15.143.198 port 42158: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 22:51:26 ip-172-31-18-93 sshd[29229]: Unable to negotiate with 45.15.143.198 port 44208: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 22:51:53 ip-172-31-18-93 sshd[29231]: Unable to negotiate with 45.15.143.198 port 46532: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 23:08:05 ip-172-31-18-93 sshd[29234]: Invalid user odoo11 from 132.232.85.32 port 44742
+Jan 19 23:08:05 ip-172-31-18-93 sshd[29234]: Received disconnect from 132.232.85.32 port 44742:11: Bye Bye [preauth]
+Jan 19 23:08:05 ip-172-31-18-93 sshd[29234]: Disconnected from invalid user odoo11 132.232.85.32 port 44742 [preauth]
+Jan 19 23:09:07 ip-172-31-18-93 sshd[29237]: error: kex_exchange_identification: Connection closed by remote host
+Jan 19 23:11:31 ip-172-31-18-93 sshd[29238]: error: kex_exchange_identification: Connection closed by remote host
+Jan 19 23:12:33 ip-172-31-18-93 sshd[29239]: Invalid user rick from 129.204.245.6 port 51040
+Jan 19 23:12:33 ip-172-31-18-93 sshd[29239]: Received disconnect from 129.204.245.6 port 51040:11: Bye Bye [preauth]
+Jan 19 23:12:33 ip-172-31-18-93 sshd[29239]: Disconnected from invalid user rick 129.204.245.6 port 51040 [preauth]
+Jan 19 23:12:41 ip-172-31-18-93 sshd[29241]: Invalid user student7 from 175.24.28.241 port 57764
+Jan 19 23:12:41 ip-172-31-18-93 sshd[29241]: Received disconnect from 175.24.28.241 port 57764:11: Bye Bye [preauth]
+Jan 19 23:12:41 ip-172-31-18-93 sshd[29241]: Disconnected from invalid user student7 175.24.28.241 port 57764 [preauth]
+Jan 19 23:15:57 ip-172-31-18-93 sshd[29245]: Unable to negotiate with 174.138.12.116 port 32842: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 19 23:16:03 ip-172-31-18-93 sshd[29247]: Invalid user abdul from 192.99.247.102 port 39694
+Jan 19 23:16:03 ip-172-31-18-93 sshd[29247]: Received disconnect from 192.99.247.102 port 39694:11: Bye Bye [preauth]
+Jan 19 23:16:03 ip-172-31-18-93 sshd[29247]: Disconnected from invalid user abdul 192.99.247.102 port 39694 [preauth]
+Jan 19 23:17:01 ip-172-31-18-93 CRON[29250]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 19 23:17:01 ip-172-31-18-93 CRON[29250]: pam_unix(cron:session): session closed for user root
+Jan 19 23:18:06 ip-172-31-18-93 sshd[29253]: Received disconnect from 106.54.182.137 port 38724:11: Bye Bye [preauth]
+Jan 19 23:18:06 ip-172-31-18-93 sshd[29253]: Disconnected from authenticating user root 106.54.182.137 port 38724 [preauth]
+Jan 19 23:18:16 ip-172-31-18-93 sshd[29255]: Invalid user jeremy from 40.80.91.203 port 36360
+Jan 19 23:18:16 ip-172-31-18-93 sshd[29255]: Received disconnect from 40.80.91.203 port 36360:11: Bye Bye [preauth]
+Jan 19 23:18:16 ip-172-31-18-93 sshd[29255]: Disconnected from invalid user jeremy 40.80.91.203 port 36360 [preauth]
+Jan 19 23:18:51 ip-172-31-18-93 sshd[29257]: Invalid user tsminst1 from 195.224.39.199 port 53008
+Jan 19 23:18:51 ip-172-31-18-93 sshd[29257]: Received disconnect from 195.224.39.199 port 53008:11: Bye Bye [preauth]
+Jan 19 23:18:51 ip-172-31-18-93 sshd[29257]: Disconnected from invalid user tsminst1 195.224.39.199 port 53008 [preauth]
+Jan 19 23:21:24 ip-172-31-18-93 sshd[29262]: Received disconnect from 129.211.205.97 port 38204:11: Bye Bye [preauth]
+Jan 19 23:21:24 ip-172-31-18-93 sshd[29262]: Disconnected from authenticating user ubuntu 129.211.205.97 port 38204 [preauth]
+Jan 19 23:22:38 ip-172-31-18-93 sshd[29264]: Invalid user everdata from 173.242.123.229 port 48796
+Jan 19 23:22:38 ip-172-31-18-93 sshd[29264]: Received disconnect from 173.242.123.229 port 48796:11: Bye Bye [preauth]
+Jan 19 23:22:38 ip-172-31-18-93 sshd[29264]: Disconnected from invalid user everdata 173.242.123.229 port 48796 [preauth]
+Jan 19 23:22:56 ip-172-31-18-93 sshd[29266]: Invalid user mc from 42.192.23.131 port 38584
+Jan 19 23:22:57 ip-172-31-18-93 sshd[29266]: Received disconnect from 42.192.23.131 port 38584:11: Bye Bye [preauth]
+Jan 19 23:22:57 ip-172-31-18-93 sshd[29266]: Disconnected from invalid user mc 42.192.23.131 port 38584 [preauth]
+Jan 19 23:23:08 ip-172-31-18-93 sshd[29268]: Received disconnect from 213.176.60.74 port 42716:11: Bye Bye [preauth]
+Jan 19 23:23:08 ip-172-31-18-93 sshd[29268]: Disconnected from authenticating user root 213.176.60.74 port 42716 [preauth]
+Jan 19 23:23:10 ip-172-31-18-93 sshd[29270]: Invalid user oracle from 36.7.159.17 port 2111
+Jan 19 23:23:10 ip-172-31-18-93 sshd[29270]: Received disconnect from 36.7.159.17 port 2111:11: Bye Bye [preauth]
+Jan 19 23:23:10 ip-172-31-18-93 sshd[29270]: Disconnected from invalid user oracle 36.7.159.17 port 2111 [preauth]
+Jan 19 23:23:39 ip-172-31-18-93 sshd[29272]: Invalid user oracle from 129.28.103.85 port 59568
+Jan 19 23:23:40 ip-172-31-18-93 sshd[29272]: Received disconnect from 129.28.103.85 port 59568:11: Bye Bye [preauth]
+Jan 19 23:23:40 ip-172-31-18-93 sshd[29272]: Disconnected from invalid user oracle 129.28.103.85 port 59568 [preauth]
+Jan 19 23:24:04 ip-172-31-18-93 sshd[29274]: Invalid user admin from 34.96.254.26 port 47522
+Jan 19 23:24:05 ip-172-31-18-93 sshd[29274]: Received disconnect from 34.96.254.26 port 47522:11: Bye Bye [preauth]
+Jan 19 23:24:05 ip-172-31-18-93 sshd[29274]: Disconnected from invalid user admin 34.96.254.26 port 47522 [preauth]
+Jan 19 23:24:14 ip-172-31-18-93 sshd[29276]: Invalid user project from 220.86.227.220 port 60600
+Jan 19 23:24:14 ip-172-31-18-93 sshd[29276]: Received disconnect from 220.86.227.220 port 60600:11: Bye Bye [preauth]
+Jan 19 23:24:14 ip-172-31-18-93 sshd[29276]: Disconnected from invalid user project 220.86.227.220 port 60600 [preauth]
+Jan 19 23:24:34 ip-172-31-18-93 sshd[29279]: Invalid user oracle from 191.217.170.33 port 39385
+Jan 19 23:24:35 ip-172-31-18-93 sshd[29279]: Received disconnect from 191.217.170.33 port 39385:11: Bye Bye [preauth]
+Jan 19 23:24:35 ip-172-31-18-93 sshd[29279]: Disconnected from invalid user oracle 191.217.170.33 port 39385 [preauth]
+Jan 19 23:24:54 ip-172-31-18-93 sshd[29281]: Invalid user sysadmin from 179.131.10.103 port 4598
+Jan 19 23:24:54 ip-172-31-18-93 sshd[29281]: Received disconnect from 179.131.10.103 port 4598:11: Bye Bye [preauth]
+Jan 19 23:24:54 ip-172-31-18-93 sshd[29281]: Disconnected from invalid user sysadmin 179.131.10.103 port 4598 [preauth]
+Jan 19 23:25:30 ip-172-31-18-93 sshd[29283]: Invalid user test101 from 106.54.163.204 port 51150
+Jan 19 23:25:30 ip-172-31-18-93 sshd[29283]: Received disconnect from 106.54.163.204 port 51150:11: Bye Bye [preauth]
+Jan 19 23:25:30 ip-172-31-18-93 sshd[29283]: Disconnected from invalid user test101 106.54.163.204 port 51150 [preauth]
+Jan 19 23:26:16 ip-172-31-18-93 sshd[29287]: Invalid user webtool from 42.194.181.115 port 47554
+Jan 19 23:26:16 ip-172-31-18-93 sshd[29287]: Received disconnect from 42.194.181.115 port 47554:11: Bye Bye [preauth]
+Jan 19 23:26:16 ip-172-31-18-93 sshd[29287]: Disconnected from invalid user webtool 42.194.181.115 port 47554 [preauth]
+Jan 19 23:28:57 ip-172-31-18-93 sshd[29290]: Received disconnect from 114.233.51.230 port 38054:11: Bye Bye [preauth]
+Jan 19 23:28:57 ip-172-31-18-93 sshd[29290]: Disconnected from authenticating user root 114.233.51.230 port 38054 [preauth]
+Jan 19 23:29:20 ip-172-31-18-93 sshd[29292]: Received disconnect from 161.35.11.118 port 51952:11: Bye Bye [preauth]
+Jan 19 23:29:20 ip-172-31-18-93 sshd[29292]: Disconnected from authenticating user root 161.35.11.118 port 51952 [preauth]
+Jan 19 23:29:27 ip-172-31-18-93 sshd[29294]: Received disconnect from 113.31.102.234 port 58712:11: Bye Bye [preauth]
+Jan 19 23:29:27 ip-172-31-18-93 sshd[29294]: Disconnected from authenticating user root 113.31.102.234 port 58712 [preauth]
+Jan 19 23:30:50 ip-172-31-18-93 sshd[29296]: Received disconnect from 106.53.26.197 port 50308:11: Bye Bye [preauth]
+Jan 19 23:30:50 ip-172-31-18-93 sshd[29296]: Disconnected from authenticating user ubuntu 106.53.26.197 port 50308 [preauth]
+Jan 19 23:31:31 ip-172-31-18-93 sshd[29298]: Received disconnect from 122.152.211.189 port 40140:11: Bye Bye [preauth]
+Jan 19 23:31:31 ip-172-31-18-93 sshd[29298]: Disconnected from authenticating user root 122.152.211.189 port 40140 [preauth]
+Jan 19 23:33:01 ip-172-31-18-93 sshd[29300]: Invalid user nikhil from 42.194.146.17 port 45608
+Jan 19 23:33:01 ip-172-31-18-93 sshd[29300]: Received disconnect from 42.194.146.17 port 45608:11: Bye Bye [preauth]
+Jan 19 23:33:01 ip-172-31-18-93 sshd[29300]: Disconnected from invalid user nikhil 42.194.146.17 port 45608 [preauth]
+Jan 19 23:36:02 ip-172-31-18-93 sshd[29303]: Invalid user oracle from 164.155.89.7 port 55270
+Jan 19 23:36:02 ip-172-31-18-93 sshd[29303]: Received disconnect from 164.155.89.7 port 55270:11: Bye Bye [preauth]
+Jan 19 23:36:02 ip-172-31-18-93 sshd[29303]: Disconnected from invalid user oracle 164.155.89.7 port 55270 [preauth]
+Jan 19 23:39:36 ip-172-31-18-93 sshd[29305]: Invalid user voip from 159.89.51.183 port 43438
+Jan 19 23:39:36 ip-172-31-18-93 sshd[29305]: Received disconnect from 159.89.51.183 port 43438:11: Bye Bye [preauth]
+Jan 19 23:39:36 ip-172-31-18-93 sshd[29305]: Disconnected from invalid user voip 159.89.51.183 port 43438 [preauth]
+Jan 19 23:39:49 ip-172-31-18-93 sshd[29307]: Invalid user andrea from 46.175.21.30 port 44696
+Jan 19 23:39:49 ip-172-31-18-93 sshd[29307]: Received disconnect from 46.175.21.30 port 44696:11: Bye Bye [preauth]
+Jan 19 23:39:49 ip-172-31-18-93 sshd[29307]: Disconnected from invalid user andrea 46.175.21.30 port 44696 [preauth]
+Jan 19 23:40:07 ip-172-31-18-93 sshd[29309]: Invalid user xu from 167.99.226.56 port 57840
+Jan 19 23:40:07 ip-172-31-18-93 sshd[29309]: Received disconnect from 167.99.226.56 port 57840:11: Bye Bye [preauth]
+Jan 19 23:40:07 ip-172-31-18-93 sshd[29309]: Disconnected from invalid user xu 167.99.226.56 port 57840 [preauth]
+Jan 19 23:43:08 ip-172-31-18-93 sshd[29314]: Invalid user sampserver from 79.53.220.145 port 46333
+Jan 19 23:43:08 ip-172-31-18-93 sshd[29314]: Received disconnect from 79.53.220.145 port 46333:11: Bye Bye [preauth]
+Jan 19 23:43:08 ip-172-31-18-93 sshd[29314]: Disconnected from invalid user sampserver 79.53.220.145 port 46333 [preauth]
+Jan 19 23:47:41 ip-172-31-18-93 sshd[29317]: Invalid user redis from 104.131.249.57 port 49722
+Jan 19 23:47:41 ip-172-31-18-93 sshd[29317]: Received disconnect from 104.131.249.57 port 49722:11: Bye Bye [preauth]
+Jan 19 23:47:41 ip-172-31-18-93 sshd[29317]: Disconnected from invalid user redis 104.131.249.57 port 49722 [preauth]
+Jan 19 23:48:16 ip-172-31-18-93 sshd[29320]: Invalid user testdev from 119.84.8.43 port 26238
+Jan 19 23:48:16 ip-172-31-18-93 sshd[29320]: Received disconnect from 119.84.8.43 port 26238:11: Bye Bye [preauth]
+Jan 19 23:48:16 ip-172-31-18-93 sshd[29320]: Disconnected from invalid user testdev 119.84.8.43 port 26238 [preauth]
+Jan 19 23:48:50 ip-172-31-18-93 sshd[29322]: Invalid user downloader from 119.4.225.31 port 43548
+Jan 19 23:48:50 ip-172-31-18-93 sshd[29322]: Received disconnect from 119.4.225.31 port 43548:11: Bye Bye [preauth]
+Jan 19 23:48:50 ip-172-31-18-93 sshd[29322]: Disconnected from invalid user downloader 119.4.225.31 port 43548 [preauth]
+Jan 19 23:50:06 ip-172-31-18-93 sshd[29324]: Invalid user demo from 122.51.167.43 port 54418
+Jan 19 23:50:06 ip-172-31-18-93 sshd[29324]: Received disconnect from 122.51.167.43 port 54418:11: Bye Bye [preauth]
+Jan 19 23:50:06 ip-172-31-18-93 sshd[29324]: Disconnected from invalid user demo 122.51.167.43 port 54418 [preauth]
+Jan 19 23:50:47 ip-172-31-18-93 sshd[29326]: Invalid user jake from 113.31.109.63 port 42204
+Jan 19 23:50:47 ip-172-31-18-93 sshd[29326]: Received disconnect from 113.31.109.63 port 42204:11: Bye Bye [preauth]
+Jan 19 23:50:47 ip-172-31-18-93 sshd[29326]: Disconnected from invalid user jake 113.31.109.63 port 42204 [preauth]
+Jan 19 23:54:01 ip-172-31-18-93 sshd[29329]: Received disconnect from 221.181.185.143 port 43210:11:  [preauth]
+Jan 19 23:54:01 ip-172-31-18-93 sshd[29329]: Disconnected from authenticating user root 221.181.185.143 port 43210 [preauth]
+Jan 19 23:56:06 ip-172-31-18-93 sshd[29332]: Invalid user toni from 122.51.154.84 port 38914
+Jan 19 23:56:06 ip-172-31-18-93 sshd[29332]: Received disconnect from 122.51.154.84 port 38914:11: Bye Bye [preauth]
+Jan 19 23:56:06 ip-172-31-18-93 sshd[29332]: Disconnected from invalid user toni 122.51.154.84 port 38914 [preauth]
+Jan 19 23:56:10 ip-172-31-18-93 sshd[29334]: Invalid user bbs from 113.31.107.34 port 52214
+Jan 19 23:56:10 ip-172-31-18-93 sshd[29334]: Received disconnect from 113.31.107.34 port 52214:11: Bye Bye [preauth]
+Jan 19 23:56:10 ip-172-31-18-93 sshd[29334]: Disconnected from invalid user bbs 113.31.107.34 port 52214 [preauth]
+Jan 19 23:58:10 ip-172-31-18-93 sshd[29336]: Invalid user miguel from 106.13.74.61 port 33074
+Jan 19 23:58:10 ip-172-31-18-93 sshd[29336]: Received disconnect from 106.13.74.61 port 33074:11: Bye Bye [preauth]
+Jan 19 23:58:10 ip-172-31-18-93 sshd[29336]: Disconnected from invalid user miguel 106.13.74.61 port 33074 [preauth]
+Jan 20 00:00:39 ip-172-31-18-93 sshd[29356]: Invalid user oracle from 111.67.204.237 port 60930
+Jan 20 00:00:40 ip-172-31-18-93 sshd[29356]: Received disconnect from 111.67.204.237 port 60930:11: Bye Bye [preauth]
+Jan 20 00:00:40 ip-172-31-18-93 sshd[29356]: Disconnected from invalid user oracle 111.67.204.237 port 60930 [preauth]
+Jan 20 00:09:01 ip-172-31-18-93 CRON[29360]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 20 00:09:01 ip-172-31-18-93 CRON[29360]: pam_unix(cron:session): session closed for user root
+Jan 20 00:17:01 ip-172-31-18-93 CRON[29366]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 20 00:17:01 ip-172-31-18-93 CRON[29366]: pam_unix(cron:session): session closed for user root
+Jan 20 00:26:35 ip-172-31-18-93 sshd[29371]: Received disconnect from 221.181.185.223 port 49495:11:  [preauth]
+Jan 20 00:26:35 ip-172-31-18-93 sshd[29371]: Disconnected from authenticating user root 221.181.185.223 port 49495 [preauth]
+Jan 20 00:36:53 ip-172-31-18-93 sshd[29376]: Invalid user pi from 145.40.33.205 port 58640
+Jan 20 00:36:53 ip-172-31-18-93 sshd[29375]: Invalid user pi from 145.40.33.205 port 41572
+Jan 20 00:36:54 ip-172-31-18-93 sshd[29376]: Connection closed by invalid user pi 145.40.33.205 port 58640 [preauth]
+Jan 20 00:36:54 ip-172-31-18-93 sshd[29375]: Connection closed by invalid user pi 145.40.33.205 port 41572 [preauth]
+Jan 20 00:47:31 ip-172-31-18-93 sshd[29381]: error: kex_exchange_identification: read: Connection reset by peer
+Jan 20 00:47:37 ip-172-31-18-93 sshd[29382]: error: kex_exchange_identification: read: Connection reset by peer
+Jan 20 00:47:37 ip-172-31-18-93 sshd[29383]: error: kex_exchange_identification: read: Connection reset by peer
+Jan 20 00:49:54 ip-172-31-18-93 sshd[31047]: error: maximum authentication attempts exceeded for root from 184.102.133.16 port 48004 ssh2 [preauth]
+Jan 20 00:49:54 ip-172-31-18-93 sshd[31047]: Disconnecting authenticating user root 184.102.133.16 port 48004: Too many authentication failures [preauth]
+Jan 20 00:49:58 ip-172-31-18-93 sshd[31049]: error: maximum authentication attempts exceeded for root from 184.102.133.16 port 48150 ssh2 [preauth]
+Jan 20 00:49:58 ip-172-31-18-93 sshd[31049]: Disconnecting authenticating user root 184.102.133.16 port 48150: Too many authentication failures [preauth]
+Jan 20 00:50:02 ip-172-31-18-93 sshd[31051]: Received disconnect from 184.102.133.16 port 48290:11: disconnected by user [preauth]
+Jan 20 00:50:02 ip-172-31-18-93 sshd[31051]: Disconnected from authenticating user root 184.102.133.16 port 48290 [preauth]
+Jan 20 00:50:07 ip-172-31-18-93 sshd[31053]: Invalid user admin from 184.102.133.16 port 48406
+Jan 20 00:50:07 ip-172-31-18-93 sshd[31053]: error: maximum authentication attempts exceeded for invalid user admin from 184.102.133.16 port 48406 ssh2 [preauth]
+Jan 20 00:50:07 ip-172-31-18-93 sshd[31053]: Disconnecting invalid user admin 184.102.133.16 port 48406: Too many authentication failures [preauth]
+Jan 20 00:50:11 ip-172-31-18-93 sshd[31055]: Invalid user admin from 184.102.133.16 port 48540
+Jan 20 00:50:11 ip-172-31-18-93 sshd[31055]: error: maximum authentication attempts exceeded for invalid user admin from 184.102.133.16 port 48540 ssh2 [preauth]
+Jan 20 00:50:11 ip-172-31-18-93 sshd[31055]: Disconnecting invalid user admin 184.102.133.16 port 48540: Too many authentication failures [preauth]
+Jan 20 00:50:16 ip-172-31-18-93 sshd[31057]: Invalid user admin from 184.102.133.16 port 48658
+Jan 20 00:50:16 ip-172-31-18-93 sshd[31057]: Received disconnect from 184.102.133.16 port 48658:11: disconnected by user [preauth]
+Jan 20 00:50:16 ip-172-31-18-93 sshd[31057]: Disconnected from invalid user admin 184.102.133.16 port 48658 [preauth]
+Jan 20 00:50:21 ip-172-31-18-93 sshd[31059]: Invalid user oracle from 184.102.133.16 port 48814
+Jan 20 00:50:21 ip-172-31-18-93 sshd[31059]: error: maximum authentication attempts exceeded for invalid user oracle from 184.102.133.16 port 48814 ssh2 [preauth]
+Jan 20 00:50:21 ip-172-31-18-93 sshd[31059]: Disconnecting invalid user oracle 184.102.133.16 port 48814: Too many authentication failures [preauth]
+Jan 20 00:50:25 ip-172-31-18-93 sshd[31061]: Invalid user oracle from 184.102.133.16 port 48962
+Jan 20 00:50:26 ip-172-31-18-93 sshd[31061]: error: maximum authentication attempts exceeded for invalid user oracle from 184.102.133.16 port 48962 ssh2 [preauth]
+Jan 20 00:50:26 ip-172-31-18-93 sshd[31061]: Disconnecting invalid user oracle 184.102.133.16 port 48962: Too many authentication failures [preauth]
+Jan 20 00:50:29 ip-172-31-18-93 sshd[31063]: Invalid user oracle from 184.102.133.16 port 49080
+Jan 20 00:50:29 ip-172-31-18-93 sshd[31063]: Received disconnect from 184.102.133.16 port 49080:11: disconnected by user [preauth]
+Jan 20 00:50:29 ip-172-31-18-93 sshd[31063]: Disconnected from invalid user oracle 184.102.133.16 port 49080 [preauth]
+Jan 20 00:50:34 ip-172-31-18-93 sshd[31065]: Invalid user usuario from 184.102.133.16 port 49194
+Jan 20 00:50:34 ip-172-31-18-93 sshd[31065]: error: maximum authentication attempts exceeded for invalid user usuario from 184.102.133.16 port 49194 ssh2 [preauth]
+Jan 20 00:50:34 ip-172-31-18-93 sshd[31065]: Disconnecting invalid user usuario 184.102.133.16 port 49194: Too many authentication failures [preauth]
+Jan 20 00:50:38 ip-172-31-18-93 sshd[31067]: Invalid user usuario from 184.102.133.16 port 49350
+Jan 20 00:50:39 ip-172-31-18-93 sshd[31067]: error: maximum authentication attempts exceeded for invalid user usuario from 184.102.133.16 port 49350 ssh2 [preauth]
+Jan 20 00:50:39 ip-172-31-18-93 sshd[31067]: Disconnecting invalid user usuario 184.102.133.16 port 49350: Too many authentication failures [preauth]
+Jan 20 00:50:42 ip-172-31-18-93 sshd[31069]: Invalid user usuario from 184.102.133.16 port 49460
+Jan 20 00:50:42 ip-172-31-18-93 sshd[31069]: Received disconnect from 184.102.133.16 port 49460:11: disconnected by user [preauth]
+Jan 20 00:50:42 ip-172-31-18-93 sshd[31069]: Disconnected from invalid user usuario 184.102.133.16 port 49460 [preauth]
+Jan 20 00:50:45 ip-172-31-18-93 sshd[31071]: Invalid user test from 184.102.133.16 port 49550
+Jan 20 00:50:45 ip-172-31-18-93 sshd[31071]: error: maximum authentication attempts exceeded for invalid user test from 184.102.133.16 port 49550 ssh2 [preauth]
+Jan 20 00:50:45 ip-172-31-18-93 sshd[31071]: Disconnecting invalid user test 184.102.133.16 port 49550: Too many authentication failures [preauth]
+Jan 20 00:50:48 ip-172-31-18-93 sshd[31074]: Invalid user test from 184.102.133.16 port 49634
+Jan 20 00:50:48 ip-172-31-18-93 sshd[31074]: error: maximum authentication attempts exceeded for invalid user test from 184.102.133.16 port 49634 ssh2 [preauth]
+Jan 20 00:50:48 ip-172-31-18-93 sshd[31074]: Disconnecting invalid user test 184.102.133.16 port 49634: Too many authentication failures [preauth]
+Jan 20 00:50:52 ip-172-31-18-93 sshd[31076]: Invalid user test from 184.102.133.16 port 49724
+Jan 20 00:50:52 ip-172-31-18-93 sshd[31076]: Received disconnect from 184.102.133.16 port 49724:11: disconnected by user [preauth]
+Jan 20 00:50:52 ip-172-31-18-93 sshd[31076]: Disconnected from invalid user test 184.102.133.16 port 49724 [preauth]
+Jan 20 00:50:55 ip-172-31-18-93 sshd[31078]: Invalid user user from 184.102.133.16 port 49828
+Jan 20 00:50:55 ip-172-31-18-93 sshd[31078]: error: maximum authentication attempts exceeded for invalid user user from 184.102.133.16 port 49828 ssh2 [preauth]
+Jan 20 00:50:55 ip-172-31-18-93 sshd[31078]: Disconnecting invalid user user 184.102.133.16 port 49828: Too many authentication failures [preauth]
+Jan 20 00:50:58 ip-172-31-18-93 sshd[31080]: Invalid user user from 184.102.133.16 port 49900
+Jan 20 00:50:59 ip-172-31-18-93 sshd[31080]: error: maximum authentication attempts exceeded for invalid user user from 184.102.133.16 port 49900 ssh2 [preauth]
+Jan 20 00:50:59 ip-172-31-18-93 sshd[31080]: Disconnecting invalid user user 184.102.133.16 port 49900: Too many authentication failures [preauth]
+Jan 20 00:51:03 ip-172-31-18-93 sshd[31082]: Invalid user user from 184.102.133.16 port 50020
+Jan 20 00:51:04 ip-172-31-18-93 sshd[31082]: Received disconnect from 184.102.133.16 port 50020:11: disconnected by user [preauth]
+Jan 20 00:51:04 ip-172-31-18-93 sshd[31082]: Disconnected from invalid user user 184.102.133.16 port 50020 [preauth]
+Jan 20 00:51:06 ip-172-31-18-93 sshd[31084]: Invalid user ftpuser from 184.102.133.16 port 50136
+Jan 20 00:51:07 ip-172-31-18-93 sshd[31084]: error: maximum authentication attempts exceeded for invalid user ftpuser from 184.102.133.16 port 50136 ssh2 [preauth]
+Jan 20 00:51:07 ip-172-31-18-93 sshd[31084]: Disconnecting invalid user ftpuser 184.102.133.16 port 50136: Too many authentication failures [preauth]
+Jan 20 00:51:10 ip-172-31-18-93 sshd[31086]: Invalid user ftpuser from 184.102.133.16 port 50240
+Jan 20 00:51:10 ip-172-31-18-93 sshd[31086]: error: maximum authentication attempts exceeded for invalid user ftpuser from 184.102.133.16 port 50240 ssh2 [preauth]
+Jan 20 00:51:10 ip-172-31-18-93 sshd[31086]: Disconnecting invalid user ftpuser 184.102.133.16 port 50240: Too many authentication failures [preauth]
+Jan 20 00:51:13 ip-172-31-18-93 sshd[31088]: Invalid user ftpuser from 184.102.133.16 port 50346
+Jan 20 00:51:13 ip-172-31-18-93 sshd[31088]: Received disconnect from 184.102.133.16 port 50346:11: disconnected by user [preauth]
+Jan 20 00:51:13 ip-172-31-18-93 sshd[31088]: Disconnected from invalid user ftpuser 184.102.133.16 port 50346 [preauth]
+Jan 20 00:51:19 ip-172-31-18-93 sshd[31090]: Invalid user test1 from 184.102.133.16 port 50430
+Jan 20 00:51:19 ip-172-31-18-93 sshd[31090]: error: maximum authentication attempts exceeded for invalid user test1 from 184.102.133.16 port 50430 ssh2 [preauth]
+Jan 20 00:51:19 ip-172-31-18-93 sshd[31090]: Disconnecting invalid user test1 184.102.133.16 port 50430: Too many authentication failures [preauth]
+Jan 20 00:51:24 ip-172-31-18-93 sshd[31092]: Invalid user test1 from 184.102.133.16 port 50612
+Jan 20 00:51:24 ip-172-31-18-93 sshd[31092]: error: maximum authentication attempts exceeded for invalid user test1 from 184.102.133.16 port 50612 ssh2 [preauth]
+Jan 20 00:51:24 ip-172-31-18-93 sshd[31092]: Disconnecting invalid user test1 184.102.133.16 port 50612: Too many authentication failures [preauth]
+Jan 20 00:51:28 ip-172-31-18-93 sshd[31094]: Invalid user test1 from 184.102.133.16 port 50734
+Jan 20 00:51:28 ip-172-31-18-93 sshd[31094]: Received disconnect from 184.102.133.16 port 50734:11: disconnected by user [preauth]
+Jan 20 00:51:28 ip-172-31-18-93 sshd[31094]: Disconnected from invalid user test1 184.102.133.16 port 50734 [preauth]
+Jan 20 00:51:32 ip-172-31-18-93 sshd[31096]: Invalid user test2 from 184.102.133.16 port 50844
+Jan 20 00:51:33 ip-172-31-18-93 sshd[31096]: error: maximum authentication attempts exceeded for invalid user test2 from 184.102.133.16 port 50844 ssh2 [preauth]
+Jan 20 00:51:33 ip-172-31-18-93 sshd[31096]: Disconnecting invalid user test2 184.102.133.16 port 50844: Too many authentication failures [preauth]
+Jan 20 00:51:37 ip-172-31-18-93 sshd[31098]: Invalid user test2 from 184.102.133.16 port 50976
+Jan 20 00:51:38 ip-172-31-18-93 sshd[31098]: error: maximum authentication attempts exceeded for invalid user test2 from 184.102.133.16 port 50976 ssh2 [preauth]
+Jan 20 00:51:38 ip-172-31-18-93 sshd[31098]: Disconnecting invalid user test2 184.102.133.16 port 50976: Too many authentication failures [preauth]
+Jan 20 00:51:42 ip-172-31-18-93 sshd[31100]: Invalid user test2 from 184.102.133.16 port 51120
+Jan 20 00:51:42 ip-172-31-18-93 sshd[31100]: Received disconnect from 184.102.133.16 port 51120:11: disconnected by user [preauth]
+Jan 20 00:51:42 ip-172-31-18-93 sshd[31100]: Disconnected from invalid user test2 184.102.133.16 port 51120 [preauth]
+Jan 20 00:51:47 ip-172-31-18-93 sshd[31102]: Invalid user contador from 184.102.133.16 port 51260
+Jan 20 00:51:47 ip-172-31-18-93 sshd[31102]: Received disconnect from 184.102.133.16 port 51260:11: disconnected by user [preauth]
+Jan 20 00:51:47 ip-172-31-18-93 sshd[31102]: Disconnected from invalid user contador 184.102.133.16 port 51260 [preauth]
+Jan 20 00:51:52 ip-172-31-18-93 sshd[31105]: Invalid user duni from 184.102.133.16 port 51378
+Jan 20 00:51:52 ip-172-31-18-93 sshd[31105]: Received disconnect from 184.102.133.16 port 51378:11: disconnected by user [preauth]
+Jan 20 00:51:52 ip-172-31-18-93 sshd[31105]: Disconnected from invalid user duni 184.102.133.16 port 51378 [preauth]
+Jan 20 00:51:56 ip-172-31-18-93 sshd[31107]: Invalid user pi from 184.102.133.16 port 51540
+Jan 20 00:51:57 ip-172-31-18-93 sshd[31107]: Received disconnect from 184.102.133.16 port 51540:11: disconnected by user [preauth]
+Jan 20 00:51:57 ip-172-31-18-93 sshd[31107]: Disconnected from invalid user pi 184.102.133.16 port 51540 [preauth]
+Jan 20 00:52:00 ip-172-31-18-93 sshd[31109]: Invalid user baikal from 184.102.133.16 port 51648
+Jan 20 00:52:00 ip-172-31-18-93 sshd[31109]: Received disconnect from 184.102.133.16 port 51648:11: disconnected by user [preauth]
+Jan 20 00:52:00 ip-172-31-18-93 sshd[31109]: Disconnected from invalid user baikal 184.102.133.16 port 51648 [preauth]
+Jan 20 00:58:50 ip-172-31-18-93 sshd[31132]: Received disconnect from 221.181.185.29 port 22949:11:  [preauth]
+Jan 20 00:58:50 ip-172-31-18-93 sshd[31132]: Disconnected from authenticating user root 221.181.185.29 port 22949 [preauth]
+Jan 20 01:14:37 ip-172-31-18-93 sshd[31152]: error: maximum authentication attempts exceeded for root from 184.97.207.54 port 35558 ssh2 [preauth]
+Jan 20 01:14:37 ip-172-31-18-93 sshd[31152]: Disconnecting authenticating user root 184.97.207.54 port 35558: Too many authentication failures [preauth]
+Jan 20 01:14:43 ip-172-31-18-93 sshd[31155]: error: maximum authentication attempts exceeded for root from 184.97.207.54 port 35724 ssh2 [preauth]
+Jan 20 01:14:43 ip-172-31-18-93 sshd[31155]: Disconnecting authenticating user root 184.97.207.54 port 35724: Too many authentication failures [preauth]
+Jan 20 01:14:48 ip-172-31-18-93 sshd[31157]: Received disconnect from 184.97.207.54 port 35892:11: disconnected by user [preauth]
+Jan 20 01:14:48 ip-172-31-18-93 sshd[31157]: Disconnected from authenticating user root 184.97.207.54 port 35892 [preauth]
+Jan 20 01:14:52 ip-172-31-18-93 sshd[31159]: Invalid user admin from 184.97.207.54 port 36026
+Jan 20 01:14:52 ip-172-31-18-93 sshd[31159]: error: maximum authentication attempts exceeded for invalid user admin from 184.97.207.54 port 36026 ssh2 [preauth]
+Jan 20 01:14:52 ip-172-31-18-93 sshd[31159]: Disconnecting invalid user admin 184.97.207.54 port 36026: Too many authentication failures [preauth]
+Jan 20 01:14:57 ip-172-31-18-93 sshd[31161]: Invalid user admin from 184.97.207.54 port 36148
+Jan 20 01:14:58 ip-172-31-18-93 sshd[31161]: error: maximum authentication attempts exceeded for invalid user admin from 184.97.207.54 port 36148 ssh2 [preauth]
+Jan 20 01:14:58 ip-172-31-18-93 sshd[31161]: Disconnecting invalid user admin 184.97.207.54 port 36148: Too many authentication failures [preauth]
+Jan 20 01:15:04 ip-172-31-18-93 sshd[31163]: Invalid user admin from 184.97.207.54 port 36320
+Jan 20 01:15:04 ip-172-31-18-93 sshd[31163]: Received disconnect from 184.97.207.54 port 36320:11: disconnected by user [preauth]
+Jan 20 01:15:04 ip-172-31-18-93 sshd[31163]: Disconnected from invalid user admin 184.97.207.54 port 36320 [preauth]
+Jan 20 01:15:10 ip-172-31-18-93 sshd[31165]: Invalid user oracle from 184.97.207.54 port 36482
+Jan 20 01:15:10 ip-172-31-18-93 sshd[31165]: error: maximum authentication attempts exceeded for invalid user oracle from 184.97.207.54 port 36482 ssh2 [preauth]
+Jan 20 01:15:10 ip-172-31-18-93 sshd[31165]: Disconnecting invalid user oracle 184.97.207.54 port 36482: Too many authentication failures [preauth]
+Jan 20 01:15:16 ip-172-31-18-93 sshd[31167]: Invalid user oracle from 184.97.207.54 port 36642
+Jan 20 01:15:17 ip-172-31-18-93 sshd[31167]: error: maximum authentication attempts exceeded for invalid user oracle from 184.97.207.54 port 36642 ssh2 [preauth]
+Jan 20 01:15:17 ip-172-31-18-93 sshd[31167]: Disconnecting invalid user oracle 184.97.207.54 port 36642: Too many authentication failures [preauth]
+Jan 20 01:15:22 ip-172-31-18-93 sshd[31170]: Invalid user oracle from 184.97.207.54 port 36812
+Jan 20 01:15:22 ip-172-31-18-93 sshd[31170]: Received disconnect from 184.97.207.54 port 36812:11: disconnected by user [preauth]
+Jan 20 01:15:22 ip-172-31-18-93 sshd[31170]: Disconnected from invalid user oracle 184.97.207.54 port 36812 [preauth]
+Jan 20 01:15:28 ip-172-31-18-93 sshd[31172]: Invalid user usuario from 184.97.207.54 port 36980
+Jan 20 01:15:28 ip-172-31-18-93 sshd[31172]: error: maximum authentication attempts exceeded for invalid user usuario from 184.97.207.54 port 36980 ssh2 [preauth]
+Jan 20 01:15:28 ip-172-31-18-93 sshd[31172]: Disconnecting invalid user usuario 184.97.207.54 port 36980: Too many authentication failures [preauth]
+Jan 20 01:15:33 ip-172-31-18-93 sshd[31174]: Invalid user usuario from 184.97.207.54 port 37146
+Jan 20 01:15:33 ip-172-31-18-93 sshd[31174]: error: maximum authentication attempts exceeded for invalid user usuario from 184.97.207.54 port 37146 ssh2 [preauth]
+Jan 20 01:15:33 ip-172-31-18-93 sshd[31174]: Disconnecting invalid user usuario 184.97.207.54 port 37146: Too many authentication failures [preauth]
+Jan 20 01:15:39 ip-172-31-18-93 sshd[31177]: Invalid user usuario from 184.97.207.54 port 37296
+Jan 20 01:15:39 ip-172-31-18-93 sshd[31177]: Received disconnect from 184.97.207.54 port 37296:11: disconnected by user [preauth]
+Jan 20 01:15:39 ip-172-31-18-93 sshd[31177]: Disconnected from invalid user usuario 184.97.207.54 port 37296 [preauth]
+Jan 20 01:15:44 ip-172-31-18-93 sshd[31179]: Invalid user test from 184.97.207.54 port 37438
+Jan 20 01:15:44 ip-172-31-18-93 sshd[31179]: error: maximum authentication attempts exceeded for invalid user test from 184.97.207.54 port 37438 ssh2 [preauth]
+Jan 20 01:15:44 ip-172-31-18-93 sshd[31179]: Disconnecting invalid user test 184.97.207.54 port 37438: Too many authentication failures [preauth]
+Jan 20 01:15:50 ip-172-31-18-93 sshd[31181]: Invalid user test from 184.97.207.54 port 37580
+Jan 20 01:15:51 ip-172-31-18-93 sshd[31181]: error: maximum authentication attempts exceeded for invalid user test from 184.97.207.54 port 37580 ssh2 [preauth]
+Jan 20 01:15:51 ip-172-31-18-93 sshd[31181]: Disconnecting invalid user test 184.97.207.54 port 37580: Too many authentication failures [preauth]
+Jan 20 01:15:56 ip-172-31-18-93 sshd[31183]: Invalid user test from 184.97.207.54 port 37766
+Jan 20 01:15:56 ip-172-31-18-93 sshd[31183]: Received disconnect from 184.97.207.54 port 37766:11: disconnected by user [preauth]
+Jan 20 01:15:56 ip-172-31-18-93 sshd[31183]: Disconnected from invalid user test 184.97.207.54 port 37766 [preauth]
+Jan 20 01:16:01 ip-172-31-18-93 sshd[31185]: Invalid user user from 184.97.207.54 port 37892
+Jan 20 01:16:01 ip-172-31-18-93 sshd[31185]: error: maximum authentication attempts exceeded for invalid user user from 184.97.207.54 port 37892 ssh2 [preauth]
+Jan 20 01:16:01 ip-172-31-18-93 sshd[31185]: Disconnecting invalid user user 184.97.207.54 port 37892: Too many authentication failures [preauth]
+Jan 20 01:16:06 ip-172-31-18-93 sshd[31187]: Invalid user user from 184.97.207.54 port 38058
+Jan 20 01:16:07 ip-172-31-18-93 sshd[31187]: error: maximum authentication attempts exceeded for invalid user user from 184.97.207.54 port 38058 ssh2 [preauth]
+Jan 20 01:16:07 ip-172-31-18-93 sshd[31187]: Disconnecting invalid user user 184.97.207.54 port 38058: Too many authentication failures [preauth]
+Jan 20 01:16:10 ip-172-31-18-93 sshd[31189]: Invalid user user from 184.97.207.54 port 38184
+Jan 20 01:16:10 ip-172-31-18-93 sshd[31189]: Received disconnect from 184.97.207.54 port 38184:11: disconnected by user [preauth]
+Jan 20 01:16:10 ip-172-31-18-93 sshd[31189]: Disconnected from invalid user user 184.97.207.54 port 38184 [preauth]
+Jan 20 01:16:14 ip-172-31-18-93 sshd[31191]: Invalid user ftpuser from 184.97.207.54 port 38290
+Jan 20 01:16:14 ip-172-31-18-93 sshd[31191]: error: maximum authentication attempts exceeded for invalid user ftpuser from 184.97.207.54 port 38290 ssh2 [preauth]
+Jan 20 01:16:14 ip-172-31-18-93 sshd[31191]: Disconnecting invalid user ftpuser 184.97.207.54 port 38290: Too many authentication failures [preauth]
+Jan 20 01:16:19 ip-172-31-18-93 sshd[31193]: Invalid user ftpuser from 184.97.207.54 port 38412
+Jan 20 01:16:19 ip-172-31-18-93 sshd[31193]: error: maximum authentication attempts exceeded for invalid user ftpuser from 184.97.207.54 port 38412 ssh2 [preauth]
+Jan 20 01:16:19 ip-172-31-18-93 sshd[31193]: Disconnecting invalid user ftpuser 184.97.207.54 port 38412: Too many authentication failures [preauth]
+Jan 20 01:16:24 ip-172-31-18-93 sshd[31195]: Invalid user ftpuser from 184.97.207.54 port 38538
+Jan 20 01:16:24 ip-172-31-18-93 sshd[31195]: Received disconnect from 184.97.207.54 port 38538:11: disconnected by user [preauth]
+Jan 20 01:16:24 ip-172-31-18-93 sshd[31195]: Disconnected from invalid user ftpuser 184.97.207.54 port 38538 [preauth]
+Jan 20 01:16:28 ip-172-31-18-93 sshd[31197]: Invalid user test1 from 184.97.207.54 port 38688
+Jan 20 01:16:28 ip-172-31-18-93 sshd[31197]: error: maximum authentication attempts exceeded for invalid user test1 from 184.97.207.54 port 38688 ssh2 [preauth]
+Jan 20 01:16:28 ip-172-31-18-93 sshd[31197]: Disconnecting invalid user test1 184.97.207.54 port 38688: Too many authentication failures [preauth]
+Jan 20 01:16:32 ip-172-31-18-93 sshd[31199]: Invalid user test1 from 184.97.207.54 port 38780
+Jan 20 01:16:32 ip-172-31-18-93 sshd[31199]: error: maximum authentication attempts exceeded for invalid user test1 from 184.97.207.54 port 38780 ssh2 [preauth]
+Jan 20 01:16:32 ip-172-31-18-93 sshd[31199]: Disconnecting invalid user test1 184.97.207.54 port 38780: Too many authentication failures [preauth]
+Jan 20 01:16:36 ip-172-31-18-93 sshd[31201]: Invalid user test1 from 184.97.207.54 port 38910
+Jan 20 01:16:36 ip-172-31-18-93 sshd[31201]: Received disconnect from 184.97.207.54 port 38910:11: disconnected by user [preauth]
+Jan 20 01:16:36 ip-172-31-18-93 sshd[31201]: Disconnected from invalid user test1 184.97.207.54 port 38910 [preauth]
+Jan 20 01:16:39 ip-172-31-18-93 sshd[31204]: Invalid user test2 from 184.97.207.54 port 39004
+Jan 20 01:16:40 ip-172-31-18-93 sshd[31204]: error: maximum authentication attempts exceeded for invalid user test2 from 184.97.207.54 port 39004 ssh2 [preauth]
+Jan 20 01:16:40 ip-172-31-18-93 sshd[31204]: Disconnecting invalid user test2 184.97.207.54 port 39004: Too many authentication failures [preauth]
+Jan 20 01:16:43 ip-172-31-18-93 sshd[31206]: Invalid user test2 from 184.97.207.54 port 39100
+Jan 20 01:16:43 ip-172-31-18-93 sshd[31206]: error: maximum authentication attempts exceeded for invalid user test2 from 184.97.207.54 port 39100 ssh2 [preauth]
+Jan 20 01:16:43 ip-172-31-18-93 sshd[31206]: Disconnecting invalid user test2 184.97.207.54 port 39100: Too many authentication failures [preauth]
+Jan 20 01:16:47 ip-172-31-18-93 sshd[31208]: Invalid user test2 from 184.97.207.54 port 39214
+Jan 20 01:16:47 ip-172-31-18-93 sshd[31208]: Received disconnect from 184.97.207.54 port 39214:11: disconnected by user [preauth]
+Jan 20 01:16:47 ip-172-31-18-93 sshd[31208]: Disconnected from invalid user test2 184.97.207.54 port 39214 [preauth]
+Jan 20 01:16:50 ip-172-31-18-93 sshd[31210]: Invalid user contador from 184.97.207.54 port 39332
+Jan 20 01:16:50 ip-172-31-18-93 sshd[31210]: Received disconnect from 184.97.207.54 port 39332:11: disconnected by user [preauth]
+Jan 20 01:16:50 ip-172-31-18-93 sshd[31210]: Disconnected from invalid user contador 184.97.207.54 port 39332 [preauth]
+Jan 20 01:16:53 ip-172-31-18-93 sshd[31212]: Invalid user duni from 184.97.207.54 port 39408
+Jan 20 01:16:53 ip-172-31-18-93 sshd[31212]: Received disconnect from 184.97.207.54 port 39408:11: disconnected by user [preauth]
+Jan 20 01:16:53 ip-172-31-18-93 sshd[31212]: Disconnected from invalid user duni 184.97.207.54 port 39408 [preauth]
+Jan 20 01:16:57 ip-172-31-18-93 sshd[31214]: Invalid user pi from 184.97.207.54 port 39504
+Jan 20 01:16:58 ip-172-31-18-93 sshd[31214]: Received disconnect from 184.97.207.54 port 39504:11: disconnected by user [preauth]
+Jan 20 01:16:58 ip-172-31-18-93 sshd[31214]: Disconnected from invalid user pi 184.97.207.54 port 39504 [preauth]
+Jan 20 01:17:01 ip-172-31-18-93 sshd[31216]: Invalid user baikal from 184.97.207.54 port 39628
+Jan 20 01:17:01 ip-172-31-18-93 sshd[31216]: Received disconnect from 184.97.207.54 port 39628:11: disconnected by user [preauth]
+Jan 20 01:17:01 ip-172-31-18-93 sshd[31216]: Disconnected from invalid user baikal 184.97.207.54 port 39628 [preauth]
+Jan 20 01:17:01 ip-172-31-18-93 CRON[31218]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 20 01:17:01 ip-172-31-18-93 CRON[31218]: pam_unix(cron:session): session closed for user root
+Jan 20 01:21:31 ip-172-31-18-93 sshd[31226]: error: kex_exchange_identification: Connection closed by remote host
+Jan 20 01:28:59 ip-172-31-18-93 sshd[31236]: Received disconnect from 221.181.185.29 port 62093:11:  [preauth]
+Jan 20 01:28:59 ip-172-31-18-93 sshd[31236]: Disconnected from authenticating user root 221.181.185.29 port 62093 [preauth]
+Jan 20 01:34:59 ip-172-31-18-93 sshd[31245]: error: kex_exchange_identification: Connection closed by remote host
+Jan 20 01:35:09 ip-172-31-18-93 sshd[31247]: Connection reset by 81.161.63.253 port 42892 [preauth]
+Jan 20 01:35:10 ip-172-31-18-93 sshd[31246]: Connection reset by 81.161.63.253 port 42918 [preauth]
+Jan 20 01:35:10 ip-172-31-18-93 sshd[31248]: Connection reset by 81.161.63.253 port 42926 [preauth]
+Jan 20 01:38:44 ip-172-31-18-93 sshd[31256]: Invalid user mac from 138.94.199.19 port 35489
+Jan 20 01:38:45 ip-172-31-18-93 sshd[31256]: Received disconnect from 138.94.199.19 port 35489:11: Bye Bye [preauth]
+Jan 20 01:38:45 ip-172-31-18-93 sshd[31256]: Disconnected from invalid user mac 138.94.199.19 port 35489 [preauth]
+Jan 20 01:39:12 ip-172-31-18-93 sshd[31258]: Invalid user elemental from 170.106.153.18 port 57376
+Jan 20 01:39:12 ip-172-31-18-93 sshd[31258]: Received disconnect from 170.106.153.18 port 57376:11: Bye Bye [preauth]
+Jan 20 01:39:12 ip-172-31-18-93 sshd[31258]: Disconnected from invalid user elemental 170.106.153.18 port 57376 [preauth]
+Jan 20 01:44:15 ip-172-31-18-93 sshd[31268]: Invalid user t3rr0r from 201.149.3.102 port 34232
+Jan 20 01:44:15 ip-172-31-18-93 sshd[31268]: Received disconnect from 201.149.3.102 port 34232:11: Bye Bye [preauth]
+Jan 20 01:44:15 ip-172-31-18-93 sshd[31268]: Disconnected from invalid user t3rr0r 201.149.3.102 port 34232 [preauth]
+Jan 20 01:45:41 ip-172-31-18-93 sshd[31273]: error: kex_exchange_identification: read: Connection reset by peer
+Jan 20 01:45:49 ip-172-31-18-93 sshd[31275]: error: kex_exchange_identification: read: Connection reset by peer
+Jan 20 01:45:49 ip-172-31-18-93 sshd[31276]: error: kex_exchange_identification: read: Connection reset by peer
+Jan 20 01:45:49 ip-172-31-18-93 sshd[31274]: error: kex_exchange_identification: read: Connection reset by peer
+Jan 20 01:45:49 ip-172-31-18-93 sshd[31278]: error: kex_exchange_identification: Connection closed by remote host
+Jan 20 01:45:49 ip-172-31-18-93 sshd[31277]: error: kex_exchange_identification: Connection closed by remote host
+Jan 20 01:48:47 ip-172-31-18-93 sshd[31282]: Received disconnect from 106.13.60.148 port 56842:11: Bye Bye [preauth]
+Jan 20 01:48:47 ip-172-31-18-93 sshd[31282]: Disconnected from authenticating user root 106.13.60.148 port 56842 [preauth]
+Jan 20 01:49:01 ip-172-31-18-93 sshd[31284]: error: kex_exchange_identification: read: Connection reset by peer
+Jan 20 01:49:11 ip-172-31-18-93 sshd[31285]: Connection reset by 81.161.63.100 port 36856 [preauth]
+Jan 20 01:49:11 ip-172-31-18-93 sshd[31286]: Connection reset by 81.161.63.100 port 36858 [preauth]
+Jan 20 01:53:16 ip-172-31-18-93 sshd[31294]: Connection closed by 192.241.211.81 port 34274 [preauth]
+Jan 20 01:57:17 ip-172-31-18-93 sshd[31301]: Received disconnect from 221.181.185.18 port 35405:11:  [preauth]
+Jan 20 01:57:17 ip-172-31-18-93 sshd[31301]: Disconnected from authenticating user root 221.181.185.18 port 35405 [preauth]
+Jan 20 02:03:03 ip-172-31-18-93 sshd[31309]: Received disconnect from 134.175.85.103 port 58534:11: Bye Bye [preauth]
+Jan 20 02:03:03 ip-172-31-18-93 sshd[31309]: Disconnected from authenticating user root 134.175.85.103 port 58534 [preauth]
+Jan 20 02:07:57 ip-172-31-18-93 sshd[31317]: Invalid user sean from 51.79.164.156 port 33844
+Jan 20 02:07:57 ip-172-31-18-93 sshd[31317]: Received disconnect from 51.79.164.156 port 33844:11: Bye Bye [preauth]
+Jan 20 02:07:57 ip-172-31-18-93 sshd[31317]: Disconnected from invalid user sean 51.79.164.156 port 33844 [preauth]
+Jan 20 02:11:04 ip-172-31-18-93 sshd[31323]: Received disconnect from 111.67.194.199 port 49076:11: Bye Bye [preauth]
+Jan 20 02:11:04 ip-172-31-18-93 sshd[31323]: Disconnected from authenticating user root 111.67.194.199 port 49076 [preauth]
+Jan 20 02:12:15 ip-172-31-18-93 sshd[31326]: Invalid user dell from 106.52.12.165 port 49166
+Jan 20 02:12:16 ip-172-31-18-93 sshd[31326]: Received disconnect from 106.52.12.165 port 49166:11: Bye Bye [preauth]
+Jan 20 02:12:16 ip-172-31-18-93 sshd[31326]: Disconnected from invalid user dell 106.52.12.165 port 49166 [preauth]
+Jan 20 02:15:19 ip-172-31-18-93 sshd[31332]: Received disconnect from 139.59.213.25 port 53176:11: Bye Bye [preauth]
+Jan 20 02:15:19 ip-172-31-18-93 sshd[31332]: Disconnected from authenticating user root 139.59.213.25 port 53176 [preauth]
+Jan 20 02:17:01 ip-172-31-18-93 CRON[31337]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 20 02:17:01 ip-172-31-18-93 CRON[31337]: pam_unix(cron:session): session closed for user root
+Jan 20 02:17:43 ip-172-31-18-93 sshd[31342]: Received disconnect from 159.65.245.182 port 60756:11: Bye Bye [preauth]
+Jan 20 02:17:43 ip-172-31-18-93 sshd[31342]: Disconnected from authenticating user root 159.65.245.182 port 60756 [preauth]
+Jan 20 02:25:40 ip-172-31-18-93 sshd[31352]: Received disconnect from 221.181.185.29 port 43608:11:  [preauth]
+Jan 20 02:25:40 ip-172-31-18-93 sshd[31352]: Disconnected from authenticating user root 221.181.185.29 port 43608 [preauth]
+Jan 20 02:29:45 ip-172-31-18-93 sshd[31359]: Invalid user ts3 from 157.245.64.140 port 40212
+Jan 20 02:29:45 ip-172-31-18-93 sshd[31359]: Received disconnect from 157.245.64.140 port 40212:11: Bye Bye [preauth]
+Jan 20 02:29:45 ip-172-31-18-93 sshd[31359]: Disconnected from invalid user ts3 157.245.64.140 port 40212 [preauth]
+Jan 20 02:41:12 ip-172-31-18-93 sshd[31373]: error: kex_exchange_identification: Connection closed by remote host
+Jan 20 02:42:21 ip-172-31-18-93 sshd[31376]: Received disconnect from 81.70.213.240 port 41382:11: Bye Bye [preauth]
+Jan 20 02:42:21 ip-172-31-18-93 sshd[31376]: Disconnected from authenticating user root 81.70.213.240 port 41382 [preauth]
+Jan 20 02:45:14 ip-172-31-18-93 sshd[31382]: Received disconnect from 59.145.221.103 port 41312:11: Bye Bye [preauth]
+Jan 20 02:45:14 ip-172-31-18-93 sshd[31382]: Disconnected from authenticating user root 59.145.221.103 port 41312 [preauth]
+Jan 20 02:45:18 ip-172-31-18-93 sshd[31384]: Received disconnect from 161.35.9.18 port 33348:11: Bye Bye [preauth]
+Jan 20 02:45:18 ip-172-31-18-93 sshd[31384]: Disconnected from authenticating user ubuntu 161.35.9.18 port 33348 [preauth]
+Jan 20 02:47:07 ip-172-31-18-93 sshd[31389]: Received disconnect from 43.229.153.76 port 60808:11: Bye Bye [preauth]
+Jan 20 02:47:07 ip-172-31-18-93 sshd[31389]: Disconnected from authenticating user root 43.229.153.76 port 60808 [preauth]
+Jan 20 02:48:02 ip-172-31-18-93 sshd[31392]: Unable to negotiate with 104.248.248.77 port 44078: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 20 02:48:26 ip-172-31-18-93 sshd[31396]: error: maximum authentication attempts exceeded for root from 72.161.49.212 port 40292 ssh2 [preauth]
+Jan 20 02:48:26 ip-172-31-18-93 sshd[31396]: Disconnecting authenticating user root 72.161.49.212 port 40292: Too many authentication failures [preauth]
+Jan 20 02:48:29 ip-172-31-18-93 sshd[31398]: error: maximum authentication attempts exceeded for root from 72.161.49.212 port 40374 ssh2 [preauth]
+Jan 20 02:48:29 ip-172-31-18-93 sshd[31398]: Disconnecting authenticating user root 72.161.49.212 port 40374: Too many authentication failures [preauth]
+Jan 20 02:48:34 ip-172-31-18-93 sshd[31400]: Received disconnect from 72.161.49.212 port 40452:11: disconnected by user [preauth]
+Jan 20 02:48:34 ip-172-31-18-93 sshd[31400]: Disconnected from authenticating user root 72.161.49.212 port 40452 [preauth]
+Jan 20 02:48:37 ip-172-31-18-93 sshd[31404]: Invalid user admin from 72.161.49.212 port 40582
+Jan 20 02:48:37 ip-172-31-18-93 sshd[31404]: error: maximum authentication attempts exceeded for invalid user admin from 72.161.49.212 port 40582 ssh2 [preauth]
+Jan 20 02:48:37 ip-172-31-18-93 sshd[31404]: Disconnecting invalid user admin 72.161.49.212 port 40582: Too many authentication failures [preauth]
+Jan 20 02:48:39 ip-172-31-18-93 sshd[31406]: Invalid user admin from 72.161.49.212 port 40656
+Jan 20 02:48:40 ip-172-31-18-93 sshd[31406]: error: maximum authentication attempts exceeded for invalid user admin from 72.161.49.212 port 40656 ssh2 [preauth]
+Jan 20 02:48:40 ip-172-31-18-93 sshd[31406]: Disconnecting invalid user admin 72.161.49.212 port 40656: Too many authentication failures [preauth]
+Jan 20 02:48:42 ip-172-31-18-93 sshd[31408]: Invalid user admin from 72.161.49.212 port 40734
+Jan 20 02:48:42 ip-172-31-18-93 sshd[31408]: Received disconnect from 72.161.49.212 port 40734:11: disconnected by user [preauth]
+Jan 20 02:48:42 ip-172-31-18-93 sshd[31408]: Disconnected from invalid user admin 72.161.49.212 port 40734 [preauth]
+Jan 20 02:48:44 ip-172-31-18-93 sshd[31410]: Invalid user oracle from 72.161.49.212 port 40814
+Jan 20 02:48:45 ip-172-31-18-93 sshd[31410]: error: maximum authentication attempts exceeded for invalid user oracle from 72.161.49.212 port 40814 ssh2 [preauth]
+Jan 20 02:48:45 ip-172-31-18-93 sshd[31410]: Disconnecting invalid user oracle 72.161.49.212 port 40814: Too many authentication failures [preauth]
+Jan 20 02:48:47 ip-172-31-18-93 sshd[31412]: Invalid user oracle from 72.161.49.212 port 40876
+Jan 20 02:48:47 ip-172-31-18-93 sshd[31412]: error: maximum authentication attempts exceeded for invalid user oracle from 72.161.49.212 port 40876 ssh2 [preauth]
+Jan 20 02:48:47 ip-172-31-18-93 sshd[31412]: Disconnecting invalid user oracle 72.161.49.212 port 40876: Too many authentication failures [preauth]
+Jan 20 02:48:50 ip-172-31-18-93 sshd[31414]: Invalid user oracle from 72.161.49.212 port 40956
+Jan 20 02:48:50 ip-172-31-18-93 sshd[31414]: Received disconnect from 72.161.49.212 port 40956:11: disconnected by user [preauth]
+Jan 20 02:48:50 ip-172-31-18-93 sshd[31414]: Disconnected from invalid user oracle 72.161.49.212 port 40956 [preauth]
+Jan 20 02:48:54 ip-172-31-18-93 sshd[31416]: Invalid user usuario from 72.161.49.212 port 41056
+Jan 20 02:48:54 ip-172-31-18-93 sshd[31416]: error: maximum authentication attempts exceeded for invalid user usuario from 72.161.49.212 port 41056 ssh2 [preauth]
+Jan 20 02:48:54 ip-172-31-18-93 sshd[31416]: Disconnecting invalid user usuario 72.161.49.212 port 41056: Too many authentication failures [preauth]
+Jan 20 02:48:57 ip-172-31-18-93 sshd[31418]: Invalid user usuario from 72.161.49.212 port 41162
+Jan 20 02:48:57 ip-172-31-18-93 sshd[31418]: error: maximum authentication attempts exceeded for invalid user usuario from 72.161.49.212 port 41162 ssh2 [preauth]
+Jan 20 02:48:57 ip-172-31-18-93 sshd[31418]: Disconnecting invalid user usuario 72.161.49.212 port 41162: Too many authentication failures [preauth]
+Jan 20 02:49:00 ip-172-31-18-93 sshd[31420]: Invalid user usuario from 72.161.49.212 port 41248
+Jan 20 02:49:00 ip-172-31-18-93 sshd[31420]: Received disconnect from 72.161.49.212 port 41248:11: disconnected by user [preauth]
+Jan 20 02:49:00 ip-172-31-18-93 sshd[31420]: Disconnected from invalid user usuario 72.161.49.212 port 41248 [preauth]
+Jan 20 02:49:04 ip-172-31-18-93 sshd[31422]: Invalid user test from 72.161.49.212 port 41324
+Jan 20 02:49:04 ip-172-31-18-93 sshd[31422]: error: maximum authentication attempts exceeded for invalid user test from 72.161.49.212 port 41324 ssh2 [preauth]
+Jan 20 02:49:04 ip-172-31-18-93 sshd[31422]: Disconnecting invalid user test 72.161.49.212 port 41324: Too many authentication failures [preauth]
+Jan 20 02:49:07 ip-172-31-18-93 sshd[31424]: Invalid user test from 72.161.49.212 port 41440
+Jan 20 02:49:08 ip-172-31-18-93 sshd[31424]: error: maximum authentication attempts exceeded for invalid user test from 72.161.49.212 port 41440 ssh2 [preauth]
+Jan 20 02:49:08 ip-172-31-18-93 sshd[31424]: Disconnecting invalid user test 72.161.49.212 port 41440: Too many authentication failures [preauth]
+Jan 20 02:49:12 ip-172-31-18-93 sshd[31426]: Invalid user test from 72.161.49.212 port 41544
+Jan 20 02:49:12 ip-172-31-18-93 sshd[31426]: Received disconnect from 72.161.49.212 port 41544:11: disconnected by user [preauth]
+Jan 20 02:49:12 ip-172-31-18-93 sshd[31426]: Disconnected from invalid user test 72.161.49.212 port 41544 [preauth]
+Jan 20 02:49:15 ip-172-31-18-93 sshd[31428]: Invalid user user from 72.161.49.212 port 41640
+Jan 20 02:49:16 ip-172-31-18-93 sshd[31428]: error: maximum authentication attempts exceeded for invalid user user from 72.161.49.212 port 41640 ssh2 [preauth]
+Jan 20 02:49:16 ip-172-31-18-93 sshd[31428]: Disconnecting invalid user user 72.161.49.212 port 41640: Too many authentication failures [preauth]
+Jan 20 02:49:20 ip-172-31-18-93 sshd[31430]: Invalid user user from 72.161.49.212 port 41758
+Jan 20 02:49:20 ip-172-31-18-93 sshd[31430]: error: maximum authentication attempts exceeded for invalid user user from 72.161.49.212 port 41758 ssh2 [preauth]
+Jan 20 02:49:20 ip-172-31-18-93 sshd[31430]: Disconnecting invalid user user 72.161.49.212 port 41758: Too many authentication failures [preauth]
+Jan 20 02:49:25 ip-172-31-18-93 sshd[31432]: Invalid user user from 72.161.49.212 port 41868
+Jan 20 02:49:25 ip-172-31-18-93 sshd[31432]: Received disconnect from 72.161.49.212 port 41868:11: disconnected by user [preauth]
+Jan 20 02:49:25 ip-172-31-18-93 sshd[31432]: Disconnected from invalid user user 72.161.49.212 port 41868 [preauth]
+Jan 20 02:49:30 ip-172-31-18-93 sshd[31434]: Invalid user ftpuser from 72.161.49.212 port 41988
+Jan 20 02:49:30 ip-172-31-18-93 sshd[31434]: error: maximum authentication attempts exceeded for invalid user ftpuser from 72.161.49.212 port 41988 ssh2 [preauth]
+Jan 20 02:49:30 ip-172-31-18-93 sshd[31434]: Disconnecting invalid user ftpuser 72.161.49.212 port 41988: Too many authentication failures [preauth]
+Jan 20 02:49:34 ip-172-31-18-93 sshd[31436]: Invalid user ftpuser from 72.161.49.212 port 42132
+Jan 20 02:49:35 ip-172-31-18-93 sshd[31436]: error: maximum authentication attempts exceeded for invalid user ftpuser from 72.161.49.212 port 42132 ssh2 [preauth]
+Jan 20 02:49:35 ip-172-31-18-93 sshd[31436]: Disconnecting invalid user ftpuser 72.161.49.212 port 42132: Too many authentication failures [preauth]
+Jan 20 02:49:39 ip-172-31-18-93 sshd[31438]: Invalid user ftpuser from 72.161.49.212 port 42258
+Jan 20 02:49:39 ip-172-31-18-93 sshd[31438]: Received disconnect from 72.161.49.212 port 42258:11: disconnected by user [preauth]
+Jan 20 02:49:39 ip-172-31-18-93 sshd[31438]: Disconnected from invalid user ftpuser 72.161.49.212 port 42258 [preauth]
+Jan 20 02:49:44 ip-172-31-18-93 sshd[31441]: Invalid user test1 from 72.161.49.212 port 42392
+Jan 20 02:49:44 ip-172-31-18-93 sshd[31441]: error: maximum authentication attempts exceeded for invalid user test1 from 72.161.49.212 port 42392 ssh2 [preauth]
+Jan 20 02:49:44 ip-172-31-18-93 sshd[31441]: Disconnecting invalid user test1 72.161.49.212 port 42392: Too many authentication failures [preauth]
+Jan 20 02:49:49 ip-172-31-18-93 sshd[31443]: Invalid user test1 from 72.161.49.212 port 42536
+Jan 20 02:49:49 ip-172-31-18-93 sshd[31443]: error: maximum authentication attempts exceeded for invalid user test1 from 72.161.49.212 port 42536 ssh2 [preauth]
+Jan 20 02:49:49 ip-172-31-18-93 sshd[31443]: Disconnecting invalid user test1 72.161.49.212 port 42536: Too many authentication failures [preauth]
+Jan 20 02:49:55 ip-172-31-18-93 sshd[31445]: Invalid user test1 from 72.161.49.212 port 42678
+Jan 20 02:49:55 ip-172-31-18-93 sshd[31445]: Received disconnect from 72.161.49.212 port 42678:11: disconnected by user [preauth]
+Jan 20 02:49:55 ip-172-31-18-93 sshd[31445]: Disconnected from invalid user test1 72.161.49.212 port 42678 [preauth]
+Jan 20 02:50:00 ip-172-31-18-93 sshd[31447]: Invalid user test2 from 72.161.49.212 port 42832
+Jan 20 02:50:00 ip-172-31-18-93 sshd[31447]: error: maximum authentication attempts exceeded for invalid user test2 from 72.161.49.212 port 42832 ssh2 [preauth]
+Jan 20 02:50:00 ip-172-31-18-93 sshd[31447]: Disconnecting invalid user test2 72.161.49.212 port 42832: Too many authentication failures [preauth]
+Jan 20 02:50:06 ip-172-31-18-93 sshd[31449]: Invalid user test2 from 72.161.49.212 port 43002
+Jan 20 02:50:06 ip-172-31-18-93 sshd[31449]: error: maximum authentication attempts exceeded for invalid user test2 from 72.161.49.212 port 43002 ssh2 [preauth]
+Jan 20 02:50:06 ip-172-31-18-93 sshd[31449]: Disconnecting invalid user test2 72.161.49.212 port 43002: Too many authentication failures [preauth]
+Jan 20 02:50:10 ip-172-31-18-93 sshd[31451]: Invalid user test2 from 72.161.49.212 port 43148
+Jan 20 02:50:10 ip-172-31-18-93 sshd[31451]: Received disconnect from 72.161.49.212 port 43148:11: disconnected by user [preauth]
+Jan 20 02:50:10 ip-172-31-18-93 sshd[31451]: Disconnected from invalid user test2 72.161.49.212 port 43148 [preauth]
+Jan 20 02:50:15 ip-172-31-18-93 sshd[31453]: Invalid user contador from 72.161.49.212 port 43268
+Jan 20 02:50:15 ip-172-31-18-93 sshd[31453]: Received disconnect from 72.161.49.212 port 43268:11: disconnected by user [preauth]
+Jan 20 02:50:15 ip-172-31-18-93 sshd[31453]: Disconnected from invalid user contador 72.161.49.212 port 43268 [preauth]
+Jan 20 02:50:20 ip-172-31-18-93 sshd[31455]: Invalid user duni from 72.161.49.212 port 43402
+Jan 20 02:50:20 ip-172-31-18-93 sshd[31455]: Received disconnect from 72.161.49.212 port 43402:11: disconnected by user [preauth]
+Jan 20 02:50:20 ip-172-31-18-93 sshd[31455]: Disconnected from invalid user duni 72.161.49.212 port 43402 [preauth]
+Jan 20 02:50:25 ip-172-31-18-93 sshd[31457]: Invalid user pi from 72.161.49.212 port 43560
+Jan 20 02:50:25 ip-172-31-18-93 sshd[31457]: Received disconnect from 72.161.49.212 port 43560:11: disconnected by user [preauth]
+Jan 20 02:50:25 ip-172-31-18-93 sshd[31457]: Disconnected from invalid user pi 72.161.49.212 port 43560 [preauth]
+Jan 20 02:50:30 ip-172-31-18-93 sshd[31459]: Invalid user baikal from 72.161.49.212 port 43708
+Jan 20 02:50:30 ip-172-31-18-93 sshd[31459]: Received disconnect from 72.161.49.212 port 43708:11: disconnected by user [preauth]
+Jan 20 02:50:30 ip-172-31-18-93 sshd[31459]: Disconnected from invalid user baikal 72.161.49.212 port 43708 [preauth]
+Jan 20 02:50:58 ip-172-31-18-93 sshd[31462]: Invalid user adsl from 65.49.210.231 port 37788
+Jan 20 02:50:59 ip-172-31-18-93 sshd[31462]: Received disconnect from 65.49.210.231 port 37788:11: Bye Bye [preauth]
+Jan 20 02:50:59 ip-172-31-18-93 sshd[31462]: Disconnected from invalid user adsl 65.49.210.231 port 37788 [preauth]
+Jan 20 02:52:42 ip-172-31-18-93 sshd[31466]: Received disconnect from 222.187.238.97 port 41982:11:  [preauth]
+Jan 20 02:52:42 ip-172-31-18-93 sshd[31466]: Disconnected from authenticating user root 222.187.238.97 port 41982 [preauth]
+Jan 20 02:53:52 ip-172-31-18-93 sshd[31470]: Invalid user appuser from 101.32.14.194 port 54512
+Jan 20 02:53:52 ip-172-31-18-93 sshd[31470]: Received disconnect from 101.32.14.194 port 54512:11: Bye Bye [preauth]
+Jan 20 02:53:52 ip-172-31-18-93 sshd[31470]: Disconnected from invalid user appuser 101.32.14.194 port 54512 [preauth]
+Jan 20 02:56:29 ip-172-31-18-93 sshd[31475]: Invalid user ftpuser from 106.12.112.49 port 46246
+Jan 20 02:56:29 ip-172-31-18-93 sshd[31475]: Received disconnect from 106.12.112.49 port 46246:11: Bye Bye [preauth]
+Jan 20 02:56:29 ip-172-31-18-93 sshd[31475]: Disconnected from invalid user ftpuser 106.12.112.49 port 46246 [preauth]
+Jan 20 02:58:42 ip-172-31-18-93 sshd[31480]: Invalid user roy from 200.118.57.190 port 46360
+Jan 20 02:58:42 ip-172-31-18-93 sshd[31480]: Received disconnect from 200.118.57.190 port 46360:11: Bye Bye [preauth]
+Jan 20 02:58:42 ip-172-31-18-93 sshd[31480]: Disconnected from invalid user roy 200.118.57.190 port 46360 [preauth]
+Jan 20 02:59:28 ip-172-31-18-93 sshd[31483]: Invalid user git from 120.53.240.203 port 54826
+Jan 20 02:59:28 ip-172-31-18-93 sshd[31483]: Received disconnect from 120.53.240.203 port 54826:11: Bye Bye [preauth]
+Jan 20 02:59:28 ip-172-31-18-93 sshd[31483]: Disconnected from invalid user git 120.53.240.203 port 54826 [preauth]
+Jan 20 03:03:49 ip-172-31-18-93 sshd[31490]: error: kex_exchange_identification: Connection closed by remote host
+Jan 20 03:04:21 ip-172-31-18-93 sshd[31493]: Invalid user toby from 111.67.204.237 port 40066
+Jan 20 03:04:22 ip-172-31-18-93 sshd[31493]: Received disconnect from 111.67.204.237 port 40066:11: Bye Bye [preauth]
+Jan 20 03:04:22 ip-172-31-18-93 sshd[31493]: Disconnected from invalid user toby 111.67.204.237 port 40066 [preauth]
+Jan 20 03:04:43 ip-172-31-18-93 sshd[31495]: error: kex_exchange_identification: Connection closed by remote host
+Jan 20 03:05:01 ip-172-31-18-93 sshd[31496]: Connection closed by 192.241.219.110 port 43474 [preauth]
+Jan 20 03:05:34 ip-172-31-18-93 sshd[31499]: Invalid user svt from 89.97.218.142 port 45866
+Jan 20 03:05:34 ip-172-31-18-93 sshd[31499]: Received disconnect from 89.97.218.142 port 45866:11: Bye Bye [preauth]
+Jan 20 03:05:34 ip-172-31-18-93 sshd[31499]: Disconnected from invalid user svt 89.97.218.142 port 45866 [preauth]
+Jan 20 03:10:01 ip-172-31-18-93 CRON[31506]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 20 03:10:01 ip-172-31-18-93 CRON[31506]: pam_unix(cron:session): session closed for user root
+Jan 20 03:10:44 ip-172-31-18-93 sshd[31509]: Unable to negotiate with 178.128.205.229 port 55508: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 20 03:12:26 ip-172-31-18-93 sshd[31514]: error: kex_exchange_identification: Connection closed by remote host
+Jan 20 03:17:01 ip-172-31-18-93 CRON[31521]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 20 03:17:01 ip-172-31-18-93 CRON[31521]: pam_unix(cron:session): session closed for user root
+Jan 20 03:18:35 ip-172-31-18-93 sshd[31527]: Invalid user user from 206.189.105.163 port 59342
+Jan 20 03:18:35 ip-172-31-18-93 sshd[31527]: Received disconnect from 206.189.105.163 port 59342:11: Normal Shutdown, Thank you for playing [preauth]
+Jan 20 03:18:35 ip-172-31-18-93 sshd[31527]: Disconnected from invalid user user 206.189.105.163 port 59342 [preauth]
+Jan 20 03:20:21 ip-172-31-18-93 sshd[31530]: Unable to negotiate with 167.172.169.97 port 41856: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Jan 20 03:26:38 ip-172-31-18-93 sshd[31541]: error: maximum authentication attempts exceeded for root from 184.3.30.2 port 45312 ssh2 [preauth]
+Jan 20 03:26:38 ip-172-31-18-93 sshd[31541]: Disconnecting authenticating user root 184.3.30.2 port 45312: Too many authentication failures [preauth]
+Jan 20 03:26:43 ip-172-31-18-93 sshd[31543]: error: maximum authentication attempts exceeded for root from 184.3.30.2 port 45436 ssh2 [preauth]
+Jan 20 03:26:43 ip-172-31-18-93 sshd[31543]: Disconnecting authenticating user root 184.3.30.2 port 45436: Too many authentication failures [preauth]
+Jan 20 03:26:47 ip-172-31-18-93 sshd[31545]: Received disconnect from 184.3.30.2 port 45538:11: disconnected by user [preauth]
+Jan 20 03:26:47 ip-172-31-18-93 sshd[31545]: Disconnected from authenticating user root 184.3.30.2 port 45538 [preauth]
+Jan 20 03:26:50 ip-172-31-18-93 sshd[31547]: Invalid user admin from 184.3.30.2 port 45636
+Jan 20 03:26:51 ip-172-31-18-93 sshd[31547]: error: maximum authentication attempts exceeded for invalid user admin from 184.3.30.2 port 45636 ssh2 [preauth]
+Jan 20 03:26:51 ip-172-31-18-93 sshd[31547]: Disconnecting invalid user admin 184.3.30.2 port 45636: Too many authentication failures [preauth]
+Jan 20 03:26:54 ip-172-31-18-93 sshd[31550]: Invalid user admin from 184.3.30.2 port 45736
+Jan 20 03:26:55 ip-172-31-18-93 sshd[31550]: error: maximum authentication attempts exceeded for invalid user admin from 184.3.30.2 port 45736 ssh2 [preauth]
+Jan 20 03:26:55 ip-172-31-18-93 sshd[31550]: Disconnecting invalid user admin 184.3.30.2 port 45736: Too many authentication failures [preauth]
+Jan 20 03:27:00 ip-172-31-18-93 sshd[31552]: Invalid user admin from 184.3.30.2 port 45824
+Jan 20 03:27:00 ip-172-31-18-93 sshd[31552]: Received disconnect from 184.3.30.2 port 45824:11: disconnected by user [preauth]
+Jan 20 03:27:00 ip-172-31-18-93 sshd[31552]: Disconnected from invalid user admin 184.3.30.2 port 45824 [preauth]
+Jan 20 03:27:04 ip-172-31-18-93 sshd[31554]: Invalid user oracle from 184.3.30.2 port 45954
+Jan 20 03:27:05 ip-172-31-18-93 sshd[31554]: error: maximum authentication attempts exceeded for invalid user oracle from 184.3.30.2 port 45954 ssh2 [preauth]
+Jan 20 03:27:05 ip-172-31-18-93 sshd[31554]: Disconnecting invalid user oracle 184.3.30.2 port 45954: Too many authentication failures [preauth]
+Jan 20 03:27:08 ip-172-31-18-93 sshd[31556]: Invalid user oracle from 184.3.30.2 port 46092
+Jan 20 03:27:08 ip-172-31-18-93 sshd[31556]: error: maximum authentication attempts exceeded for invalid user oracle from 184.3.30.2 port 46092 ssh2 [preauth]
+Jan 20 03:27:08 ip-172-31-18-93 sshd[31556]: Disconnecting invalid user oracle 184.3.30.2 port 46092: Too many authentication failures [preauth]
+Jan 20 03:27:12 ip-172-31-18-93 sshd[31558]: Invalid user oracle from 184.3.30.2 port 46182
+Jan 20 03:27:12 ip-172-31-18-93 sshd[31558]: Received disconnect from 184.3.30.2 port 46182:11: disconnected by user [preauth]
+Jan 20 03:27:12 ip-172-31-18-93 sshd[31558]: Disconnected from invalid user oracle 184.3.30.2 port 46182 [preauth]
+Jan 20 03:27:15 ip-172-31-18-93 sshd[31560]: Invalid user usuario from 184.3.30.2 port 46274
+Jan 20 03:27:16 ip-172-31-18-93 sshd[31560]: error: maximum authentication attempts exceeded for invalid user usuario from 184.3.30.2 port 46274 ssh2 [preauth]
+Jan 20 03:27:16 ip-172-31-18-93 sshd[31560]: Disconnecting invalid user usuario 184.3.30.2 port 46274: Too many authentication failures [preauth]
+Jan 20 03:27:19 ip-172-31-18-93 sshd[31562]: Invalid user usuario from 184.3.30.2 port 46358
+Jan 20 03:27:19 ip-172-31-18-93 sshd[31562]: error: maximum authentication attempts exceeded for invalid user usuario from 184.3.30.2 port 46358 ssh2 [preauth]
+Jan 20 03:27:19 ip-172-31-18-93 sshd[31562]: Disconnecting invalid user usuario 184.3.30.2 port 46358: Too many authentication failures [preauth]
+Jan 20 03:27:24 ip-172-31-18-93 sshd[31564]: Invalid user usuario from 184.3.30.2 port 46456
+Jan 20 03:27:24 ip-172-31-18-93 sshd[31564]: Received disconnect from 184.3.30.2 port 46456:11: disconnected by user [preauth]
+Jan 20 03:27:24 ip-172-31-18-93 sshd[31564]: Disconnected from invalid user usuario 184.3.30.2 port 46456 [preauth]
+Jan 20 03:27:28 ip-172-31-18-93 sshd[31566]: Invalid user test from 184.3.30.2 port 46580
+Jan 20 03:27:29 ip-172-31-18-93 sshd[31566]: error: maximum authentication attempts exceeded for invalid user test from 184.3.30.2 port 46580 ssh2 [preauth]
+Jan 20 03:27:29 ip-172-31-18-93 sshd[31566]: Disconnecting invalid user test 184.3.30.2 port 46580: Too many authentication failures [preauth]
+Jan 20 03:27:33 ip-172-31-18-93 sshd[31568]: Invalid user test from 184.3.30.2 port 46710
+Jan 20 03:27:33 ip-172-31-18-93 sshd[31568]: error: maximum authentication attempts exceeded for invalid user test from 184.3.30.2 port 46710 ssh2 [preauth]
+Jan 20 03:27:33 ip-172-31-18-93 sshd[31568]: Disconnecting invalid user test 184.3.30.2 port 46710: Too many authentication failures [preauth]
+Jan 20 03:27:37 ip-172-31-18-93 sshd[31570]: Invalid user test from 184.3.30.2 port 46826
+Jan 20 03:27:37 ip-172-31-18-93 sshd[31570]: Received disconnect from 184.3.30.2 port 46826:11: disconnected by user [preauth]
+Jan 20 03:27:37 ip-172-31-18-93 sshd[31570]: Disconnected from invalid user test 184.3.30.2 port 46826 [preauth]
+Jan 20 03:27:42 ip-172-31-18-93 sshd[31572]: Invalid user user from 184.3.30.2 port 46934
+Jan 20 03:27:42 ip-172-31-18-93 sshd[31572]: error: maximum authentication attempts exceeded for invalid user user from 184.3.30.2 port 46934 ssh2 [preauth]
+Jan 20 03:27:42 ip-172-31-18-93 sshd[31572]: Disconnecting invalid user user 184.3.30.2 port 46934: Too many authentication failures [preauth]
+Jan 20 03:27:47 ip-172-31-18-93 sshd[31574]: Invalid user user from 184.3.30.2 port 47060
+Jan 20 03:27:47 ip-172-31-18-93 sshd[31574]: error: maximum authentication attempts exceeded for invalid user user from 184.3.30.2 port 47060 ssh2 [preauth]
+Jan 20 03:27:47 ip-172-31-18-93 sshd[31574]: Disconnecting invalid user user 184.3.30.2 port 47060: Too many authentication failures [preauth]
+Jan 20 03:27:52 ip-172-31-18-93 sshd[31576]: Invalid user user from 184.3.30.2 port 47178
+Jan 20 03:27:52 ip-172-31-18-93 sshd[31576]: Received disconnect from 184.3.30.2 port 47178:11: disconnected by user [preauth]
+Jan 20 03:27:52 ip-172-31-18-93 sshd[31576]: Disconnected from invalid user user 184.3.30.2 port 47178 [preauth]
+Jan 20 03:27:56 ip-172-31-18-93 sshd[31579]: Invalid user ftpuser from 184.3.30.2 port 47298
+Jan 20 03:27:57 ip-172-31-18-93 sshd[31579]: error: maximum authentication attempts exceeded for invalid user ftpuser from 184.3.30.2 port 47298 ssh2 [preauth]
+Jan 20 03:27:57 ip-172-31-18-93 sshd[31579]: Disconnecting invalid user ftpuser 184.3.30.2 port 47298: Too many authentication failures [preauth]
+Jan 20 03:28:02 ip-172-31-18-93 sshd[31581]: Invalid user ftpuser from 184.3.30.2 port 47434
+Jan 20 03:28:02 ip-172-31-18-93 sshd[31581]: error: maximum authentication attempts exceeded for invalid user ftpuser from 184.3.30.2 port 47434 ssh2 [preauth]
+Jan 20 03:28:02 ip-172-31-18-93 sshd[31581]: Disconnecting invalid user ftpuser 184.3.30.2 port 47434: Too many authentication failures [preauth]
+Jan 20 03:28:06 ip-172-31-18-93 sshd[31583]: Invalid user ftpuser from 184.3.30.2 port 47574
+Jan 20 03:28:06 ip-172-31-18-93 sshd[31583]: Received disconnect from 184.3.30.2 port 47574:11: disconnected by user [preauth]
+Jan 20 03:28:06 ip-172-31-18-93 sshd[31583]: Disconnected from invalid user ftpuser 184.3.30.2 port 47574 [preauth]
+Jan 20 03:28:10 ip-172-31-18-93 sshd[31585]: Invalid user test1 from 184.3.30.2 port 47658
+Jan 20 03:28:11 ip-172-31-18-93 sshd[31585]: error: maximum authentication attempts exceeded for invalid user test1 from 184.3.30.2 port 47658 ssh2 [preauth]
+Jan 20 03:28:11 ip-172-31-18-93 sshd[31585]: Disconnecting invalid user test1 184.3.30.2 port 47658: Too many authentication failures [preauth]
+Jan 20 03:28:14 ip-172-31-18-93 sshd[31587]: Invalid user test1 from 184.3.30.2 port 47772
+Jan 20 03:28:14 ip-172-31-18-93 sshd[31587]: error: maximum authentication attempts exceeded for invalid user test1 from 184.3.30.2 port 47772 ssh2 [preauth]
+Jan 20 03:28:14 ip-172-31-18-93 sshd[31587]: Disconnecting invalid user test1 184.3.30.2 port 47772: Too many authentication failures [preauth]
+Jan 20 03:28:19 ip-172-31-18-93 sshd[31589]: Invalid user test1 from 184.3.30.2 port 47852
+Jan 20 03:28:19 ip-172-31-18-93 sshd[31589]: Received disconnect from 184.3.30.2 port 47852:11: disconnected by user [preauth]
+Jan 20 03:28:19 ip-172-31-18-93 sshd[31589]: Disconnected from invalid user test1 184.3.30.2 port 47852 [preauth]
+Jan 20 03:28:23 ip-172-31-18-93 sshd[31592]: Invalid user test2 from 184.3.30.2 port 47962
+Jan 20 03:28:23 ip-172-31-18-93 sshd[31592]: error: maximum authentication attempts exceeded for invalid user test2 from 184.3.30.2 port 47962 ssh2 [preauth]
+Jan 20 03:28:23 ip-172-31-18-93 sshd[31592]: Disconnecting invalid user test2 184.3.30.2 port 47962: Too many authentication failures [preauth]
+Jan 20 03:28:27 ip-172-31-18-93 sshd[31594]: Invalid user test2 from 184.3.30.2 port 48082
+Jan 20 03:28:28 ip-172-31-18-93 sshd[31594]: error: maximum authentication attempts exceeded for invalid user test2 from 184.3.30.2 port 48082 ssh2 [preauth]
+Jan 20 03:28:28 ip-172-31-18-93 sshd[31594]: Disconnecting invalid user test2 184.3.30.2 port 48082: Too many authentication failures [preauth]
+Jan 20 03:28:31 ip-172-31-18-93 sshd[31596]: Invalid user test2 from 184.3.30.2 port 48212
+Jan 20 03:28:32 ip-172-31-18-93 sshd[31596]: Received disconnect from 184.3.30.2 port 48212:11: disconnected by user [preauth]
+Jan 20 03:28:32 ip-172-31-18-93 sshd[31596]: Disconnected from invalid user test2 184.3.30.2 port 48212 [preauth]
+Jan 20 03:28:36 ip-172-31-18-93 sshd[31598]: Invalid user contador from 184.3.30.2 port 48298
+Jan 20 03:28:36 ip-172-31-18-93 sshd[31598]: Received disconnect from 184.3.30.2 port 48298:11: disconnected by user [preauth]
+Jan 20 03:28:36 ip-172-31-18-93 sshd[31598]: Disconnected from invalid user contador 184.3.30.2 port 48298 [preauth]
+Jan 20 03:28:41 ip-172-31-18-93 sshd[31600]: Invalid user duni from 184.3.30.2 port 48424
+Jan 20 03:28:41 ip-172-31-18-93 sshd[31600]: Received disconnect from 184.3.30.2 port 48424:11: disconnected by user [preauth]
+Jan 20 03:28:41 ip-172-31-18-93 sshd[31600]: Disconnected from invalid user duni 184.3.30.2 port 48424 [preauth]
+Jan 20 03:28:45 ip-172-31-18-93 sshd[31602]: Invalid user pi from 184.3.30.2 port 48538
+Jan 20 03:28:45 ip-172-31-18-93 sshd[31602]: Received disconnect from 184.3.30.2 port 48538:11: disconnected by user [preauth]
+Jan 20 03:28:45 ip-172-31-18-93 sshd[31602]: Disconnected from invalid user pi 184.3.30.2 port 48538 [preauth]
+Jan 20 03:28:51 ip-172-31-18-93 sshd[31604]: Invalid user baikal from 184.3.30.2 port 48632
+Jan 20 03:28:51 ip-172-31-18-93 sshd[31604]: Received disconnect from 184.3.30.2 port 48632:11: disconnected by user [preauth]
+Jan 20 03:28:51 ip-172-31-18-93 sshd[31604]: Disconnected from invalid user baikal 184.3.30.2 port 48632 [preauth]
+Jan 20 03:39:49 ip-172-31-18-93 sshd[31618]: Invalid user carlos from 170.106.155.8 port 48692
+Jan 20 03:39:49 ip-172-31-18-93 sshd[31618]: Received disconnect from 170.106.155.8 port 48692:11: Bye Bye [preauth]
+Jan 20 03:39:49 ip-172-31-18-93 sshd[31618]: Disconnected from invalid user carlos 170.106.155.8 port 48692 [preauth]
+Jan 20 03:40:41 ip-172-31-18-93 sshd[31621]: Invalid user user1 from 179.184.186.170 port 46526
+Jan 20 03:40:41 ip-172-31-18-93 sshd[31621]: Received disconnect from 179.184.186.170 port 46526:11: Bye Bye [preauth]
+Jan 20 03:40:41 ip-172-31-18-93 sshd[31621]: Disconnected from invalid user user1 179.184.186.170 port 46526 [preauth]
+Jan 20 03:40:42 ip-172-31-18-93 sshd[31623]: Invalid user guest from 138.197.180.102 port 43472
+Jan 20 03:40:42 ip-172-31-18-93 sshd[31623]: Received disconnect from 138.197.180.102 port 43472:11: Bye Bye [preauth]
+Jan 20 03:40:42 ip-172-31-18-93 sshd[31623]: Disconnected from invalid user guest 138.197.180.102 port 43472 [preauth]
+Jan 20 03:42:09 ip-172-31-18-93 sshd[31626]: Invalid user testdev from 111.229.65.34 port 49692
+Jan 20 03:42:09 ip-172-31-18-93 sshd[31626]: Received disconnect from 111.229.65.34 port 49692:11: Bye Bye [preauth]
+Jan 20 03:42:09 ip-172-31-18-93 sshd[31626]: Disconnected from invalid user testdev 111.229.65.34 port 49692 [preauth]
+Jan 20 03:42:27 ip-172-31-18-93 sshd[31629]: Invalid user arkserver from 157.230.7.236 port 50882
+Jan 20 03:42:27 ip-172-31-18-93 sshd[31629]: Received disconnect from 157.230.7.236 port 50882:11: Bye Bye [preauth]
+Jan 20 03:42:27 ip-172-31-18-93 sshd[31629]: Disconnected from invalid user arkserver 157.230.7.236 port 50882 [preauth]
+Jan 20 03:42:42 ip-172-31-18-93 sshd[31631]: Invalid user kim from 148.66.129.194 port 37666
+Jan 20 03:42:42 ip-172-31-18-93 sshd[31631]: Received disconnect from 148.66.129.194 port 37666:11: Bye Bye [preauth]
+Jan 20 03:42:42 ip-172-31-18-93 sshd[31631]: Disconnected from invalid user kim 148.66.129.194 port 37666 [preauth]
+Jan 20 03:43:00 ip-172-31-18-93 sshd[31633]: Invalid user osmc from 49.51.249.135 port 45496
+Jan 20 03:43:00 ip-172-31-18-93 sshd[31633]: Received disconnect from 49.51.249.135 port 45496:11: Bye Bye [preauth]
+Jan 20 03:43:00 ip-172-31-18-93 sshd[31633]: Disconnected from invalid user osmc 49.51.249.135 port 45496 [preauth]
+Jan 20 03:44:09 ip-172-31-18-93 sshd[31637]: Invalid user marek from 159.89.29.161 port 34352
+Jan 20 03:44:09 ip-172-31-18-93 sshd[31637]: Received disconnect from 159.89.29.161 port 34352:11: Bye Bye [preauth]
+Jan 20 03:44:09 ip-172-31-18-93 sshd[31637]: Disconnected from invalid user marek 159.89.29.161 port 34352 [preauth]
+Jan 20 03:44:36 ip-172-31-18-93 sshd[31640]: Invalid user cacti from 91.121.162.198 port 53988
+Jan 20 03:44:36 ip-172-31-18-93 sshd[31640]: Received disconnect from 91.121.162.198 port 53988:11: Bye Bye [preauth]
+Jan 20 03:44:36 ip-172-31-18-93 sshd[31640]: Disconnected from invalid user cacti 91.121.162.198 port 53988 [preauth]
+Jan 20 03:45:57 ip-172-31-18-93 sshd[31645]: Received disconnect from 120.132.68.57 port 39110:11: Bye Bye [preauth]
+Jan 20 03:45:57 ip-172-31-18-93 sshd[31645]: Disconnected from authenticating user root 120.132.68.57 port 39110 [preauth]
+Jan 20 03:47:49 ip-172-31-18-93 sshd[31649]: Invalid user camille from 113.31.104.176 port 46430
+Jan 20 03:47:49 ip-172-31-18-93 sshd[31649]: Received disconnect from 113.31.104.176 port 46430:11: Bye Bye [preauth]
+Jan 20 03:47:49 ip-172-31-18-93 sshd[31649]: Disconnected from invalid user camille 113.31.104.176 port 46430 [preauth]
+Jan 20 03:48:16 ip-172-31-18-93 sshd[31651]: Invalid user intranet from 106.52.115.36 port 58036
+Jan 20 03:48:16 ip-172-31-18-93 sshd[31651]: Received disconnect from 106.52.115.36 port 58036:11: Bye Bye [preauth]
+Jan 20 03:48:16 ip-172-31-18-93 sshd[31651]: Disconnected from invalid user intranet 106.52.115.36 port 58036 [preauth]
+Jan 20 03:50:29 ip-172-31-18-93 sshd[31657]: Invalid user desarrollo from 113.31.144.153 port 47908
+Jan 20 03:50:30 ip-172-31-18-93 sshd[31657]: Received disconnect from 113.31.144.153 port 47908:11: Bye Bye [preauth]
+Jan 20 03:50:30 ip-172-31-18-93 sshd[31657]: Disconnected from invalid user desarrollo 113.31.144.153 port 47908 [preauth]
+Jan 20 03:50:36 ip-172-31-18-93 sshd[31659]: Invalid user tmp from 121.4.91.59 port 52588
+Jan 20 03:50:37 ip-172-31-18-93 sshd[31659]: Received disconnect from 121.4.91.59 port 52588:11: Bye Bye [preauth]
+Jan 20 03:50:37 ip-172-31-18-93 sshd[31659]: Disconnected from invalid user tmp 121.4.91.59 port 52588 [preauth]
+Jan 20 03:52:53 ip-172-31-18-93 sshd[31665]: Received disconnect from 132.148.166.225 port 54178:11: Bye Bye [preauth]
+Jan 20 03:52:53 ip-172-31-18-93 sshd[31665]: Disconnected from authenticating user root 132.148.166.225 port 54178 [preauth]
+Jan 20 03:58:16 ip-172-31-18-93 sshd[31676]: Invalid user miles from 170.106.75.81 port 45050
+Jan 20 03:58:16 ip-172-31-18-93 sshd[31676]: Received disconnect from 170.106.75.81 port 45050:11: Bye Bye [preauth]
+Jan 20 03:58:16 ip-172-31-18-93 sshd[31676]: Disconnected from invalid user miles 170.106.75.81 port 45050 [preauth]
+Jan 20 03:59:16 ip-172-31-18-93 sshd[31679]: Received disconnect from 212.12.18.203 port 58942:11: Bye Bye [preauth]
+Jan 20 03:59:16 ip-172-31-18-93 sshd[31679]: Disconnected from authenticating user root 212.12.18.203 port 58942 [preauth]
+Jan 20 03:59:48 ip-172-31-18-93 sshd[31681]: Received disconnect from 121.4.58.20 port 54876:11: Bye Bye [preauth]
+Jan 20 03:59:48 ip-172-31-18-93 sshd[31681]: Disconnected from authenticating user root 121.4.58.20 port 54876 [preauth]
+Jan 20 04:01:09 ip-172-31-18-93 sshd[31686]: Received disconnect from 212.64.1.170 port 53702:11: Bye Bye [preauth]
+Jan 20 04:01:09 ip-172-31-18-93 sshd[31686]: Disconnected from authenticating user root 212.64.1.170 port 53702 [preauth]
+Jan 20 04:01:24 ip-172-31-18-93 sshd[31688]: Invalid user  from 65.49.20.69 port 59430
+Jan 20 04:01:28 ip-172-31-18-93 sshd[31688]: Connection closed by invalid user  65.49.20.69 port 59430 [preauth]
+Jan 20 04:03:43 ip-172-31-18-93 sshd[31693]: Invalid user csserver from 183.232.48.168 port 41652
+Jan 20 04:03:44 ip-172-31-18-93 sshd[31693]: Received disconnect from 183.232.48.168 port 41652:11: Bye Bye [preauth]
+Jan 20 04:03:44 ip-172-31-18-93 sshd[31693]: Disconnected from invalid user csserver 183.232.48.168 port 41652 [preauth]
+Jan 20 04:04:09 ip-172-31-18-93 sshd[31696]: Received disconnect from 154.8.178.67 port 48042:11: Bye Bye [preauth]
+Jan 20 04:04:09 ip-172-31-18-93 sshd[31696]: Disconnected from authenticating user root 154.8.178.67 port 48042 [preauth]
+Jan 20 04:04:19 ip-172-31-18-93 sshd[31698]: Invalid user user from 159.65.176.156 port 55817
+Jan 20 04:04:19 ip-172-31-18-93 sshd[31698]: Received disconnect from 159.65.176.156 port 55817:11: Bye Bye [preauth]
+Jan 20 04:04:19 ip-172-31-18-93 sshd[31698]: Disconnected from invalid user user 159.65.176.156 port 55817 [preauth]
+Jan 20 04:07:28 ip-172-31-18-93 sshd[31703]: error: kex_exchange_identification: read: Connection reset by peer
+Jan 20 04:07:40 ip-172-31-18-93 sshd[31704]: Connection reset by 81.161.63.101 port 63262 [preauth]
+Jan 20 04:07:40 ip-172-31-18-93 sshd[31705]: Connection reset by 81.161.63.101 port 63240 [preauth]
+Jan 20 04:08:19 ip-172-31-18-93 sshd[31710]: Invalid user git from 139.199.78.228 port 56556
+Jan 20 04:08:19 ip-172-31-18-93 sshd[31710]: Received disconnect from 139.199.78.228 port 56556:11: Bye Bye [preauth]
+Jan 20 04:08:19 ip-172-31-18-93 sshd[31710]: Disconnected from invalid user git 139.199.78.228 port 56556 [preauth]
+Jan 20 04:10:49 ip-172-31-18-93 sshd[31715]: Invalid user rick from 119.28.75.244 port 42960
+Jan 20 04:10:49 ip-172-31-18-93 sshd[31715]: Received disconnect from 119.28.75.244 port 42960:11: Bye Bye [preauth]
+Jan 20 04:10:49 ip-172-31-18-93 sshd[31715]: Disconnected from invalid user rick 119.28.75.244 port 42960 [preauth]
+Jan 20 04:10:52 ip-172-31-18-93 sshd[31717]: Invalid user lulu from 143.110.156.122 port 47420
+Jan 20 04:10:52 ip-172-31-18-93 sshd[31717]: Received disconnect from 143.110.156.122 port 47420:11: Bye Bye [preauth]
+Jan 20 04:10:52 ip-172-31-18-93 sshd[31717]: Disconnected from invalid user lulu 143.110.156.122 port 47420 [preauth]
+Jan 20 04:12:17 ip-172-31-18-93 sshd[31720]: Invalid user s from 1.227.57.126 port 16808
+Jan 20 04:12:17 ip-172-31-18-93 sshd[31720]: Received disconnect from 1.227.57.126 port 16808:11: Bye Bye [preauth]
+Jan 20 04:12:17 ip-172-31-18-93 sshd[31720]: Disconnected from invalid user s 1.227.57.126 port 16808 [preauth]
+Jan 20 04:14:28 ip-172-31-18-93 sshd[31726]: Invalid user deamon from 115.159.161.81 port 58230
+Jan 20 04:14:28 ip-172-31-18-93 sshd[31726]: Received disconnect from 115.159.161.81 port 58230:11: Bye Bye [preauth]
+Jan 20 04:14:28 ip-172-31-18-93 sshd[31726]: Disconnected from invalid user deamon 115.159.161.81 port 58230 [preauth]
+Jan 20 04:16:57 ip-172-31-18-93 sshd[31731]: error: kex_exchange_identification: Connection closed by remote host
+Jan 20 04:17:01 ip-172-31-18-93 CRON[31732]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 20 04:17:01 ip-172-31-18-93 CRON[31732]: pam_unix(cron:session): session closed for user root
+Jan 20 04:17:52 ip-172-31-18-93 sshd[31736]: Received disconnect from 221.181.185.143 port 25235:11:  [preauth]
+Jan 20 04:17:52 ip-172-31-18-93 sshd[31736]: Disconnected from authenticating user root 221.181.185.143 port 25235 [preauth]
+Jan 20 04:22:13 ip-172-31-18-93 sshd[31745]: Invalid user cfabllc from 201.72.190.101 port 35842
+Jan 20 04:22:13 ip-172-31-18-93 sshd[31745]: Received disconnect from 201.72.190.101 port 35842:11: Bye Bye [preauth]
+Jan 20 04:22:13 ip-172-31-18-93 sshd[31745]: Disconnected from invalid user cfabllc 201.72.190.101 port 35842 [preauth]
+Jan 20 04:22:13 ip-172-31-18-93 sshd[31744]: Invalid user dev from 42.192.78.138 port 52790
+Jan 20 04:22:14 ip-172-31-18-93 sshd[31744]: Received disconnect from 42.192.78.138 port 52790:11: Bye Bye [preauth]
+Jan 20 04:22:14 ip-172-31-18-93 sshd[31744]: Disconnected from invalid user dev 42.192.78.138 port 52790 [preauth]
+Jan 20 04:28:37 ip-172-31-18-93 sshd[31755]: Invalid user monitor from 101.32.184.141 port 42810
+Jan 20 04:28:37 ip-172-31-18-93 sshd[31755]: Received disconnect from 101.32.184.141 port 42810:11: Bye Bye [preauth]
+Jan 20 04:28:37 ip-172-31-18-93 sshd[31755]: Disconnected from invalid user monitor 101.32.184.141 port 42810 [preauth]
+Jan 20 04:28:47 ip-172-31-18-93 sshd[31757]: Invalid user openproject from 195.24.66.231 port 44640
+Jan 20 04:28:47 ip-172-31-18-93 sshd[31757]: Received disconnect from 195.24.66.231 port 44640:11: Bye Bye [preauth]
+Jan 20 04:28:47 ip-172-31-18-93 sshd[31757]: Disconnected from invalid user openproject 195.24.66.231 port 44640 [preauth]
+Jan 20 04:29:49 ip-172-31-18-93 sshd[31761]: Invalid user ftpuser from 122.155.202.93 port 47932
+Jan 20 04:29:49 ip-172-31-18-93 sshd[31761]: Received disconnect from 122.155.202.93 port 47932:11: Bye Bye [preauth]
+Jan 20 04:29:49 ip-172-31-18-93 sshd[31761]: Disconnected from invalid user ftpuser 122.155.202.93 port 47932 [preauth]
+Jan 20 04:36:24 ip-172-31-18-93 sshd[31771]: Invalid user wx from 49.235.113.101 port 53174
+Jan 20 04:36:24 ip-172-31-18-93 sshd[31771]: Received disconnect from 49.235.113.101 port 53174:11: Bye Bye [preauth]
+Jan 20 04:36:24 ip-172-31-18-93 sshd[31771]: Disconnected from invalid user wx 49.235.113.101 port 53174 [preauth]
+Jan 20 04:41:58 ip-172-31-18-93 sshd[31780]: Invalid user li from 190.156.238.155 port 57264
+Jan 20 04:41:58 ip-172-31-18-93 sshd[31780]: Received disconnect from 190.156.238.155 port 57264:11: Bye Bye [preauth]
+Jan 20 04:41:58 ip-172-31-18-93 sshd[31780]: Disconnected from invalid user li 190.156.238.155 port 57264 [preauth]
+Jan 20 04:42:41 ip-172-31-18-93 sshd[31784]: error: kex_exchange_identification: Connection closed by remote host
+Jan 20 04:42:41 ip-172-31-18-93 sshd[31785]: error: kex_exchange_identification: Connection closed by remote host
+Jan 20 04:42:41 ip-172-31-18-93 sshd[31786]: error: kex_exchange_identification: Connection closed by remote host
+Jan 20 04:42:43 ip-172-31-18-93 sshd[31787]: error: kex_exchange_identification: Connection closed by remote host
+Jan 20 04:42:43 ip-172-31-18-93 sshd[31788]: error: kex_exchange_identification: Connection closed by remote host
+Jan 20 04:42:43 ip-172-31-18-93 sshd[31789]: error: kex_exchange_identification: Connection closed by remote host
+Jan 20 04:42:54 ip-172-31-18-93 sshd[31790]: error: kex_exchange_identification: Connection closed by remote host
+Jan 20 04:42:54 ip-172-31-18-93 sshd[31791]: error: kex_exchange_identification: Connection closed by remote host
+Jan 20 04:42:55 ip-172-31-18-93 sshd[31792]: error: kex_exchange_identification: Connection closed by remote host
+Jan 20 04:44:56 ip-172-31-18-93 sshd[31796]: Invalid user admin from 81.69.170.127 port 58022
+Jan 20 04:44:56 ip-172-31-18-93 sshd[31796]: Received disconnect from 81.69.170.127 port 58022:11: Bye Bye [preauth]
+Jan 20 04:44:56 ip-172-31-18-93 sshd[31796]: Disconnected from invalid user admin 81.69.170.127 port 58022 [preauth]
+Jan 20 04:47:25 ip-172-31-18-93 sshd[31801]: Received disconnect from 221.181.185.223 port 49039:11:  [preauth]
+Jan 20 04:47:25 ip-172-31-18-93 sshd[31801]: Disconnected from authenticating user root 221.181.185.223 port 49039 [preauth]
+Jan 21 03:14:50 ip-172-31-18-93 systemd-logind[524]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 21 03:14:50 ip-172-31-18-93 systemd-logind[524]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 21 03:14:50 ip-172-31-18-93 systemd-logind[524]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan 21 03:14:50 ip-172-31-18-93 systemd-logind[524]: New seat seat0.
+Jan 21 03:14:52 ip-172-31-18-93 sshd[687]: Server listening on 0.0.0.0 port 22.
+Jan 21 03:14:52 ip-172-31-18-93 sshd[687]: Server listening on :: port 22.
+Jan 21 03:17:01 ip-172-31-18-93 CRON[1450]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 21 03:17:01 ip-172-31-18-93 CRON[1450]: pam_unix(cron:session): session closed for user root
+Jan 21 03:17:55 ip-172-31-18-93 sshd[1461]: Invalid user dal from 171.244.139.236 port 53570
+Jan 21 03:17:56 ip-172-31-18-93 sshd[1461]: Received disconnect from 171.244.139.236 port 53570:11: Bye Bye [preauth]
+Jan 21 03:17:56 ip-172-31-18-93 sshd[1461]: Disconnected from invalid user dal 171.244.139.236 port 53570 [preauth]
+Jan 21 03:33:11 ip-172-31-18-93 sshd[1500]: error: kex_exchange_identification: read: Connection reset by peer
+Jan 21 03:33:23 ip-172-31-18-93 sshd[1501]: Connection reset by 81.161.63.101 port 38878 [preauth]
+Jan 21 03:34:09 ip-172-31-18-93 sshd[1506]: Connection closed by 192.241.222.33 port 36616 [preauth]
+Jan 21 03:34:24 ip-172-31-18-93 sshd[1508]: Accepted publickey for ubuntu from 73.169.221.12 port 54874 ssh2: RSA SHA256:z7CFhTBdJ+sGb3G1rLS8A9Bm1jghQDa90ig6Ol1d5Kw
+Jan 21 03:34:24 ip-172-31-18-93 sshd[1508]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jan 21 03:34:24 ip-172-31-18-93 systemd-logind[524]: New session 2 of user ubuntu.
+Jan 21 03:34:24 ip-172-31-18-93 systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Jan 21 03:35:36 ip-172-31-18-93 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/nano auth.log
+Jan 21 03:35:36 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 21 03:35:58 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 21 03:36:28 ip-172-31-18-93 sshd[1652]: Connection closed by 104.211.16.167 port 52152 [preauth]
+Jan 21 03:37:44 ip-172-31-18-93 sudo:   ubuntu : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/passwd ubuntu
+Jan 21 03:37:44 ip-172-31-18-93 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jan 21 03:37:58 ip-172-31-18-93 passwd[1657]: pam_unix(passwd:chauthtok): password changed for ubuntu
+Jan 21 03:37:58 ip-172-31-18-93 sudo: pam_unix(sudo:session): session closed for user root
+Jan 21 03:39:10 ip-172-31-18-93 sshd[1659]: Accepted publickey for ubuntu from 73.169.221.12 port 55042 ssh2: RSA SHA256:z7CFhTBdJ+sGb3G1rLS8A9Bm1jghQDa90ig6Ol1d5Kw
+Jan 21 03:39:10 ip-172-31-18-93 sshd[1659]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Jan 21 03:39:10 ip-172-31-18-93 systemd-logind[524]: New session 4 of user ubuntu.
