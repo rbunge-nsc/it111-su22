@@ -1,0 +1,8 @@
+filename = input("Enter a file name:")
+f = open(filename, "x")
+print("File name " + filename + " has been created.")
+f.close()
+textinput = input("Enter some text:")
+f = open(filename, "a")
+f.write(textinput)
+f.close()
